@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | GasWorld Ltd Mechanical Heating &amp; Plumbing, Bristol</title>
+  <meta name="description" content="GasWorld Ltd project portfolio from domestic boiler replacements to 200-unit new build developments. Commercial, social housing, and renewable energy projects across the South West.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <style>
+    .projects-masonry {
+      columns: 3;
+      column-gap: 1.5rem;
+    }
+    .project-item {
+      break-inside: avoid;
+      margin-bottom: 1.5rem;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--white);
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .project-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .project-item img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    .project-item img.tall { height: 320px; }
+    .project-item img.standard { height: 220px; }
+    .project-info {
+      padding: 1.5rem;
+    }
+    .project-info h3 {
+      font-size: 1.05rem;
+      margin: 0.5rem 0 0.25rem;
+    }
+    .project-info p {
+      font-size: 0.87rem;
+      color: var(--text-light);
+      margin: 0;
+    }
+    @media (max-width: 900px) {
+      .projects-masonry { columns: 2; }
+    }
+    @media (max-width: 580px) {
+      .projects-masonry { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <div id="nav-container"></div>
+
+  <main id="main-content">
+
+    <!-- ── Page Hero ──────────────────────────────────── -->
+    <section class="hero-inner" aria-label="Projects portfolio">
+      <div class="hero-inner-bg" style="background-image:url('img/paintworks-bristol.jpg')"></div>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span aria-current="page">Projects</span>
+        </nav>
+        <div class="hero-inner-content">
+          <h1>Our projects</h1>
+          <p class="lead">From individual homes to large-scale new build developments across the South West.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Projects Grid ──────────────────────────────── -->
+    <section class="section bg-white" aria-labelledby="projects-grid-heading">
+      <div class="container">
+        <h2 id="projects-grid-heading" class="visually-hidden">Projects portfolio</h2>
+
+        <!-- Filter bar -->
+        <div class="filter-bar reveal" data-filter-container>
+          <button class="filter-btn active" data-filter="all">All projects</button>
+          <button class="filter-btn" data-filter="commercial">Commercial &amp; New Build</button>
+          <button class="filter-btn" data-filter="social">Social Housing</button>
+          <button class="filter-btn" data-filter="domestic">Domestic</button>
+          <button class="filter-btn" data-filter="renewables">Renewables</button>
+        </div>
+
+        <!-- Projects grid -->
+        <div class="projects-grid reveal-stagger" data-filter-container>
+
+          <article class="project-card" data-filter="commercial">
+            <img class="project-card-img" src="img/paintworks-bristol.jpg" alt="Paint Works Bristol development" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-commercial">Commercial &amp; New Build</span>
+              <h4>Paint Works Bristol</h4>
+              <p>Crest Nicholson · Bath Road, Bristol · 211 units · Full mechanical installation</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="social">
+            <img class="project-card-img" src="img/st-michaels-court.jpg" alt="St Michaels Court Kingswood" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-social">Social Housing</span>
+              <h4>St Michaels Court</h4>
+              <p>Wilmot Dixon / PfP · Kingswood · 24 apartments</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="commercial">
+            <img class="project-card-img" src="img/moreton-in-marsh.jpg" alt="Morton-in-Marsh development" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-commercial">Commercial &amp; New Build</span>
+              <h4>Morton-in-Marsh</h4>
+              <p>Client TBC · Gloucestershire · New build residential</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="commercial">
+            <img class="project-card-img" src="img/crest-harry-stoke.jpg" alt="Crest Harry Stoke" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-commercial">Commercial &amp; New Build</span>
+              <h4>Crest Harry Stoke</h4>
+              <p>Crest Nicholson · Harry Stoke, Bristol · New build residential</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="social">
+            <img class="project-card-img" src="img/orchard-house.jpg" alt="Orchard House Shirehampton" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-social">Social Housing</span>
+              <h4>Orchard House</h4>
+              <p>Places for People · Shirehampton, Bristol</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="commercial">
+            <img class="project-card-img" src="img/city-country-factory.jpg" alt="City and Country Factory No.1" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-commercial">Commercial &amp; New Build</span>
+              <h4>City &amp; Country Factory No.1</h4>
+              <p>City &amp; Country · Full mechanical package</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="commercial">
+            <img class="project-card-img" src="img/malmesbury-nursing-home.jpg" alt="Malmesbury Nursing Home" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-commercial">Commercial</span>
+              <h4>Malmesbury Nursing Home</h4>
+              <p>Bouygues UK · Malmesbury, Wiltshire · Commercial heating</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="renewables">
+            <img class="project-card-img" src="img/ashp.jpg" alt="Air source heat pump installation" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-renewables">Renewables</span>
+              <h4>Rural Devon ASHP Conversion</h4>
+              <p>GW Renewables · Devon · 12kW Vaillant ASHP · BUS grant applied</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-filter="domestic">
+            <img class="project-card-img" src="img/domestic-heating.jpg" alt="Domestic boiler installation" loading="lazy">
+            <div class="project-card-body">
+              <span class="card-tag tag-domestic">Domestic</span>
+              <h4>Multi-Point Central Heating</h4>
+              <p>Private customer · Bristol · Full central heating installation</p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- More projects note -->
+        <div class="section-notice reveal" style="margin-top:3rem">
+          <p>Additional project photography and case studies will be added following the planned photographic shoot. <a href="contact.html" style="color:var(--navy);font-weight:600">Contact us</a> to discuss your project.</p>
+          <a href="contact.html" class="btn btn-primary">Discuss your project</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    initComponents({ activePage: 'projects', showCtaBanner: true });
+  </script>
+</body>
+</html>

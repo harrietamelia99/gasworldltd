@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Free Quote | GasWorld Ltd Boilers &amp; Heating, Bristol</title>
+  <meta name="description" content="Get a free quote for boiler replacement, central heating, plumbing, or Air Source Heat Pumps across Bristol, Bath and the South West. Gas Safe registered since 1981.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <style>
+    /* Quote page stripped layout, no full nav */
+    body { padding-top: 0; }
+
+    .quote-header {
+      background: var(--navy);
+      padding: 1.1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .quote-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+
+    .quote-logo-text {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -0.04em;
+    }
+
+    .quote-header-phone {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--mint);
+      text-decoration: none;
+    }
+
+    .quote-hero-section {
+      background: var(--navy);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+    }
+
+    .quote-hero-section h1 {
+      color: var(--white);
+      margin-bottom: 0.75rem;
+    }
+
+    .quote-hero-section p {
+      color: rgba(255,255,255,0.78);
+      margin: 0 auto 2rem;
+      max-width: 55ch;
+    }
+
+    .trust-badges-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .trust-badge-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+    }
+
+    .trust-badge-item svg {
+      width: 15px;
+      height: 15px;
+      color: var(--mint);
+    }
+
+    .quote-body {
+      background: var(--off-white);
+      min-height: calc(100vh - 64px);
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .quote-form-wrapper {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .quote-form-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .quote-form-title {
+      font-size: 1.3rem;
+      color: var(--navy);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 2px solid var(--off-white);
+    }
+
+    .why-choose-strip {
+      margin-top: 2rem;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .why-choose-strip h3 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: var(--navy);
+    }
+
+    .why-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text-mid);
+    }
+
+    .why-item:last-child { margin-bottom: 0; }
+
+    .why-item svg {
+      width: 18px;
+      height: 18px;
+      color: var(--navy);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .quote-footer-bar {
+      background: var(--navy);
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .quote-footer-bar p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
+      margin: 0;
+    }
+
+    .quote-footer-bar a {
+      color: rgba(255,255,255,0.5);
+    }
+
+    @media (max-width: 480px) {
+      .quote-form-card { padding: 1.5rem; }
+      .trust-badges-row { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Simplified header no full nav -->
+  <header class="quote-header" role="banner">
+    <a href="index.html" class="quote-logo" aria-label="GasWorld return to homepage">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 43 865 162" height="26" aria-label="GasWorld" style="display:block;width:auto"><g><g fill="#ffffff" fill-opacity="1"><g transform="translate(0.871246, 197.748388)"><g><path d="M 119.75 -12.328125 C 120.75 -23.078125 121.25 -31.035156 121.25 -36.203125 C 121.25 -38.660156 120.75 -47.976562 119.75 -64.15625 C 124.332031 -63.820312 127.75 -63.65625 130 -63.65625 C 132.25 -63.65625 135.664062 -63.820312 140.25 -64.15625 C 139.1875 -52.414062 138.65625 -40.148438 138.65625 -27.359375 C 138.65625 -21.054688 139.1875 -13.660156 140.25 -5.171875 C 130.632812 -2.785156 123.039062 -1.0625 117.46875 0 C 107.914062 1.925781 97.738281 2.890625 86.9375 2.890625 C 70.957031 2.890625 57.828125 0.664062 47.546875 -3.78125 C 33.085938 -10.007812 22.546875 -19.957031 15.921875 -33.625 C 10.941406 -43.894531 8.453125 -55.53125 8.453125 -68.53125 C 8.453125 -86.164062 12.828125 -101.085938 21.578125 -113.296875 C 35.304688 -132.523438 57.65625 -142.140625 88.625 -142.140625 C 102.675781 -142.140625 115.34375 -140.015625 126.625 -135.765625 C 130.53125 -134.378906 135.203125 -132.257812 140.640625 -129.40625 C 138.515625 -124.5 136.789062 -119.425781 135.46875 -114.1875 L 132.984375 -113.296875 C 118.523438 -126.554688 103.109375 -133.1875 86.734375 -133.1875 C 76.847656 -133.1875 67.363281 -130.765625 58.28125 -125.921875 C 48.070312 -120.421875 40.484375 -112.066406 35.515625 -100.859375 C 31.398438 -91.578125 29.34375 -81.234375 29.34375 -69.828125 C 29.34375 -50.859375 34.347656 -35.441406 44.359375 -23.578125 C 50.328125 -16.546875 57.320312 -11.769531 65.34375 -9.25 C 72.039062 -7.125 79.898438 -6.0625 88.921875 -6.0625 C 97.472656 -6.0625 104.800781 -7.023438 110.90625 -8.953125 C 113.09375 -9.617188 116.039062 -10.742188 119.75 -12.328125 Z M 119.75 -12.328125 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(158.805891, 197.748388)"><g><path d="M 15.609375 -74.5 L 15.8125 -87.234375 C 25.425781 -95.117188 36.5 -99.0625 49.03125 -99.0625 C 60.4375 -99.0625 69.320312 -95.546875 75.6875 -88.515625 C 78.9375 -84.941406 81.023438 -81.066406 81.953125 -76.890625 C 82.878906 -72.773438 83.34375 -67.632812 83.34375 -61.46875 C 83.34375 -55.769531 83.113281 -43.601562 82.65625 -24.96875 C 82.59375 -22.382812 82.5625 -20.425781 82.5625 -19.09375 C 82.5625 -12.863281 83.222656 -8.921875 84.546875 -7.265625 C 85.804688 -5.671875 87.695312 -4.875 90.21875 -4.875 C 91.007812 -4.875 92.066406 -5.003906 93.390625 -5.265625 L 94.484375 -0.390625 C 89.515625 1.597656 84.875 2.59375 80.5625 2.59375 C 76.457031 2.59375 73.304688 1.097656 71.109375 -1.890625 C 69.984375 -3.347656 68.859375 -6.066406 67.734375 -10.046875 C 57.253906 -1.617188 46.773438 2.59375 36.296875 2.59375 C 29.203125 2.59375 22.9375 0.96875 17.5 -2.28125 C 10.601562 -6.332031 7.15625 -13.164062 7.15625 -22.78125 C 7.15625 -33.78125 11.960938 -41.632812 21.578125 -46.34375 C 25.097656 -48.007812 30.570312 -49.601562 38 -51.125 C 38.925781 -51.320312 44.628906 -52.382812 55.109375 -54.3125 C 61.597656 -55.5 65.410156 -56.988281 66.546875 -58.78125 C 67.203125 -59.84375 67.53125 -61.5 67.53125 -63.75 C 67.53125 -70.519531 66.535156 -75.660156 64.546875 -79.171875 C 60.640625 -86.203125 53.8125 -89.71875 44.0625 -89.71875 C 37.894531 -89.71875 32.359375 -88.328125 27.453125 -85.546875 C 24.597656 -83.953125 22.410156 -82.0625 20.890625 -79.875 C 20.085938 -78.8125 19.160156 -77.019531 18.109375 -74.5 Z M 67.53125 -48.734375 C 52.019531 -46.285156 41.8125 -43.898438 36.90625 -41.578125 C 29.34375 -38.054688 25.5625 -32.351562 25.5625 -24.46875 C 25.5625 -18.5 27.617188 -13.859375 31.734375 -10.546875 C 34.847656 -8.023438 38.828125 -6.765625 43.671875 -6.765625 C 49.234375 -6.765625 54.304688 -8.289062 58.890625 -11.34375 C 61.203125 -12.925781 63.882812 -15.644531 66.9375 -19.5 C 67.207031 -31.4375 67.40625 -41.179688 67.53125 -48.734375 Z M 67.53125 -48.734375 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(256.671496, 197.748388)"><g><path d="M 8.859375 -5.375 C 11.046875 -9.75 13.066406 -14.421875 14.921875 -19.390625 C 18.097656 -14.421875 21.046875 -10.972656 23.765625 -9.046875 C 27.816406 -6.265625 32.523438 -4.875 37.890625 -4.875 C 43.660156 -4.875 48.4375 -6.460938 52.21875 -9.640625 C 56 -12.828125 57.890625 -17.007812 57.890625 -22.1875 C 57.890625 -27.09375 56.066406 -31.234375 52.421875 -34.609375 C 49.566406 -37.265625 43.863281 -39.753906 35.3125 -42.078125 C 25.5625 -44.597656 18.960938 -48.175781 15.515625 -52.8125 C 12.128906 -57.320312 10.4375 -62.828125 10.4375 -69.328125 C 10.4375 -79.078125 13.988281 -86.734375 21.09375 -92.296875 C 26.851562 -96.804688 34.378906 -99.0625 43.671875 -99.0625 C 48.898438 -99.0625 53.503906 -98.367188 57.484375 -96.984375 C 59.609375 -96.253906 62.460938 -94.789062 66.046875 -92.59375 C 64.585938 -89.351562 62.628906 -84.679688 60.171875 -78.578125 C 57.453125 -82.816406 55.035156 -85.800781 52.921875 -87.53125 C 49.398438 -90.25 45.320312 -91.609375 40.6875 -91.609375 C 35.90625 -91.609375 31.957031 -90.179688 28.84375 -87.328125 C 25.664062 -84.410156 24.078125 -80.363281 24.078125 -75.1875 C 24.078125 -69.488281 26.164062 -65.179688 30.34375 -62.265625 C 33.457031 -60.140625 38.363281 -58.179688 45.0625 -56.390625 C 51.820312 -54.535156 56.957031 -52.582031 60.46875 -50.53125 C 64.113281 -48.46875 67.035156 -45.117188 69.234375 -40.484375 C 70.753906 -37.234375 71.515625 -33.75 71.515625 -30.03125 C 71.515625 -23.34375 69.226562 -17.046875 64.65625 -11.140625 C 57.5625 -1.984375 47.179688 2.59375 33.515625 2.59375 C 28.679688 2.59375 24.007812 1.925781 19.5 0.59375 C 16.644531 -0.269531 13.097656 -2.257812 8.859375 -5.375 Z M 8.859375 -5.375 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(335.740663, 197.748388)"><g><path d="M 2.984375 -139.75 C 7.753906 -139.414062 11.367188 -139.25 13.828125 -139.25 C 16.078125 -139.25 19.554688 -139.414062 24.265625 -139.75 C 25.128906 -136.164062 27.1875 -128.570312 30.4375 -116.96875 C 35.601562 -98.207031 39.582031 -84.25 42.375 -75.09375 C 45.15625 -65.945312 49.460938 -52.1875 55.296875 -33.8125 L 59.578125 -20 C 64.617188 -35.84375 72.875 -60.609375 84.34375 -94.296875 C 88.851562 -107.691406 93.492188 -122.84375 98.265625 -139.75 C 101.117188 -139.414062 103.242188 -139.25 104.640625 -139.25 C 106.023438 -139.25 108.144531 -139.414062 111 -139.75 C 113.851562 -130.0625 119.125 -113.550781 126.8125 -90.21875 C 128.34375 -85.96875 132.585938 -72.96875 139.546875 -51.21875 C 142.535156 -42.070312 145.785156 -32.722656 149.296875 -23.171875 C 151.953125 -30.867188 155.832031 -43.070312 160.9375 -59.78125 L 171.078125 -92.59375 C 178.898438 -119.320312 183.410156 -135.039062 184.609375 -139.75 C 187.984375 -139.414062 190.535156 -139.25 192.265625 -139.25 C 193.984375 -139.25 196.535156 -139.414062 199.921875 -139.75 C 196.804688 -131.726562 188.582031 -109.28125 175.25 -72.40625 C 172 -63.457031 165.46875 -44.097656 155.65625 -14.328125 C 153.863281 -8.691406 152.472656 -3.75 151.484375 0.5 C 148.367188 0.164062 146.015625 0 144.421875 0 C 142.828125 0 140.472656 0.164062 137.359375 0.5 C 134.972656 -8.25 131.425781 -20.050781 126.71875 -34.90625 C 122.007812 -49.5625 116.96875 -65.410156 111.59375 -82.453125 C 108.476562 -92.265625 105.097656 -102.644531 101.453125 -113.59375 C 97.335938 -102.3125 91.535156 -85.929688 84.046875 -64.453125 C 71.773438 -29.441406 64.378906 -7.789062 61.859375 0.5 C 58.742188 0.164062 56.425781 0 54.90625 0 C 53.3125 0 50.957031 0.164062 47.84375 0.5 C 46.445312 -3.945312 44.488281 -10.578125 41.96875 -19.390625 C 41.238281 -21.847656 33.382812 -47.179688 18.40625 -95.390625 C 11.175781 -117.597656 6.035156 -132.382812 2.984375 -139.75 Z M 2.984375 -139.75 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(528.880256, 197.748388)"><g><path d="M 58.484375 -99.0625 C 73.535156 -99.0625 85.4375 -93.925781 94.1875 -83.65625 C 101.945312 -74.5 105.828125 -62.957031 105.828125 -49.03125 C 105.828125 -32.851562 100.722656 -19.925781 90.515625 -10.25 C 81.492188 -1.6875 70.117188 2.59375 56.390625 2.59375 C 43.660156 2.59375 32.953125 -0.988281 24.265625 -8.15625 C 13.328125 -17.238281 7.859375 -30.269531 7.859375 -47.25 C 7.859375 -57.789062 10.28125 -67.304688 15.125 -75.796875 C 19.5 -83.347656 25.796875 -89.210938 34.015625 -93.390625 C 41.378906 -97.171875 49.535156 -99.0625 58.484375 -99.0625 Z M 57.984375 -91.609375 C 48.171875 -91.609375 40.578125 -87.597656 35.203125 -79.578125 C 29.242188 -70.816406 26.265625 -60.003906 26.265625 -47.140625 C 26.265625 -32.285156 29.644531 -21.015625 36.40625 -13.328125 C 41.375 -7.691406 47.972656 -4.875 56.203125 -4.875 C 65.210938 -4.875 72.472656 -8.617188 77.984375 -16.109375 C 84.273438 -24.734375 87.421875 -35.90625 87.421875 -49.625 C 87.421875 -63.882812 84.238281 -74.925781 77.875 -82.75 C 73.101562 -88.65625 66.472656 -91.609375 57.984375 -91.609375 Z M 57.984375 -91.609375 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(641.763122, 197.748388)"><g><path d="M 16.40625 0.5 C 17.46875 -8.050781 18 -22.804688 18 -43.765625 L 17.796875 -66.546875 C 17.671875 -78.148438 17.539062 -85.375 17.40625 -88.21875 C 17.269531 -90.738281 16.9375 -93.660156 16.40625 -96.984375 C 20.851562 -96.648438 24.171875 -96.484375 26.359375 -96.484375 C 28.546875 -96.484375 31.859375 -96.648438 36.296875 -96.984375 C 35.242188 -90.609375 34.71875 -84.804688 34.71875 -79.578125 C 39.289062 -86.203125 43.300781 -90.910156 46.75 -93.703125 C 51.125 -97.273438 55.898438 -99.0625 61.078125 -99.0625 C 63.066406 -99.0625 65.421875 -98.695312 68.140625 -97.96875 C 66.742188 -93.789062 65.945312 -91.039062 65.75 -89.71875 C 65.414062 -88.257812 65.082031 -85.144531 64.75 -80.375 C 60.84375 -82.226562 57.296875 -83.15625 54.109375 -83.15625 C 43.828125 -83.15625 37.492188 -77.285156 35.109375 -65.546875 C 34.179688 -60.898438 33.71875 -48.863281 33.71875 -29.4375 C 33.71875 -16.507812 34.25 -6.53125 35.3125 0.5 C 31.132812 0.164062 28.015625 0 25.953125 0 C 23.765625 0 20.582031 0.164062 16.40625 0.5 Z M 16.40625 0.5 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(706.908731, 197.748388)"><g><path d="M 19.203125 -151.390625 C 23.378906 -151.054688 26.523438 -150.890625 28.640625 -150.890625 C 30.765625 -150.890625 33.914062 -151.054688 38.09375 -151.390625 C 37.425781 -145.484375 36.992188 -139.613281 36.796875 -133.78125 C 36.734375 -130.269531 36.703125 -120.6875 36.703125 -105.03125 L 36.5 -80.5625 L 36.703125 -52.71875 C 36.703125 -33.351562 36.769531 -20.851562 36.90625 -15.21875 C 37.101562 -10.445312 37.5 -5.207031 38.09375 0.5 C 33.914062 0.164062 30.800781 0 28.75 0 C 26.5625 0 23.378906 0.164062 19.203125 0.5 C 20.128906 -8.65625 20.59375 -18.4375 20.59375 -28.84375 L 20.484375 -50.53125 L 20.6875 -80.375 L 20.484375 -107.515625 C 20.421875 -126.546875 19.992188 -141.171875 19.203125 -151.390625 Z M 19.203125 -151.390625 "/></g></g></g><g fill="#ffffff" fill-opacity="1"><g transform="translate(763.402283, 197.748388)"><g><path d="M 81.765625 0.5 C 82.421875 -4.601562 82.914062 -11.898438 83.25 -21.390625 C 79.800781 -14.691406 76.648438 -9.914062 73.796875 -7.0625 C 67.367188 -0.625 58.582031 2.59375 47.4375 2.59375 C 35.238281 2.59375 25.523438 -1.75 18.296875 -10.4375 C 10.140625 -20.1875 6.0625 -32.722656 6.0625 -48.046875 C 6.0625 -61.566406 9.3125 -72.769531 15.8125 -81.65625 C 19.851562 -87.226562 24.957031 -91.570312 31.125 -94.6875 C 37.09375 -97.601562 43.492188 -99.0625 50.328125 -99.0625 C 56.890625 -99.0625 63.023438 -97.601562 68.734375 -94.6875 C 74.898438 -91.507812 79.304688 -86.800781 81.953125 -80.5625 L 81.859375 -86.03125 L 81.765625 -100.75 C 81.492188 -128.738281 81.03125 -145.648438 80.375 -151.484375 C 84.550781 -151.085938 87.695312 -150.890625 89.8125 -150.890625 C 91.875 -150.890625 95.023438 -151.085938 99.265625 -151.484375 C 98.472656 -145.253906 98.007812 -136.96875 97.875 -126.625 C 97.875 -119.789062 97.84375 -100.328125 97.78125 -68.234375 L 97.671875 -35.515625 C 97.671875 -18.472656 98.203125 -6.46875 99.265625 0.5 C 95.347656 0.164062 92.429688 0 90.515625 0 C 88.523438 0 85.609375 0.164062 81.765625 0.5 Z M 53.515625 -90.3125 C 44.554688 -90.3125 37.394531 -86.597656 32.03125 -79.171875 C 26.988281 -72.210938 24.46875 -62.398438 24.46875 -49.734375 C 24.46875 -36.597656 26.523438 -26.253906 30.640625 -18.703125 C 35.210938 -10.347656 42.207031 -6.171875 51.625 -6.171875 C 60.644531 -6.171875 67.835938 -9.914062 73.203125 -17.40625 C 78.503906 -24.769531 81.15625 -35.25 81.15625 -48.84375 C 81.15625 -58.71875 80.097656 -66.304688 77.984375 -71.609375 C 75.328125 -78.441406 71.378906 -83.550781 66.140625 -86.9375 C 62.691406 -89.1875 58.484375 -90.3125 53.515625 -90.3125 Z M 53.515625 -90.3125 "/></g></g></g></g></svg>
+    </a>
+    <a href="tel:01179725340" class="quote-header-phone">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      0117 972 5340
+    </a>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ───────────────────────────────────────── -->
+    <section class="quote-hero-section" aria-label="Get a free quote">
+      <h1>Get a free quote for your home</h1>
+      <p>Boiler replacement, central heating, plumbing, or Air Source Heat Pumps we cover it all across Bristol, Bath and the South West.</p>
+      <div class="trust-badges-row">
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 10l5 5 7-8"/></svg>
+          Gas Safe Registered
+        </div>
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 10l5 5 7-8"/></svg>
+          MCS Certified
+        </div>
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 10l5 5 7-8"/></svg>
+          Oftec Registered
+        </div>
+        <div class="trust-badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 10l5 5 7-8"/></svg>
+          Est. 1981 · 45 years
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Quote Form ─────────────────────────────────── -->
+    <div class="quote-body">
+      <div class="quote-form-wrapper">
+
+        <div class="quote-form-card">
+          <h2 class="quote-form-title">Request your free quote</h2>
+          <form data-validate>
+            <div class="form-group">
+              <label class="form-label" for="q-name">Full name *</label>
+              <input class="form-control" id="q-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required autofocus>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="q-address">Address / Postcode *</label>
+              <input class="form-control" id="q-address" name="address" type="text" placeholder="e.g. BS4 4EU" autocomplete="street-address" required>
+            </div>
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="q-phone">Phone *</label>
+                <input class="form-control" id="q-phone" name="phone" type="tel" placeholder="07700 000000" autocomplete="tel" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="q-email">Email *</label>
+                <input class="form-control" id="q-email" name="email" type="email" placeholder="your@email.com" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="q-service">Service needed *</label>
+              <select class="form-control" id="q-service" name="service" required>
+                <option value="">What do you need?</option>
+                <option>New boiler / central heating</option>
+                <option>Boiler service or repair</option>
+                <option>Plumbing callout</option>
+                <option>Bathroom installation</option>
+                <option>Air Source Heat Pump</option>
+                <option>General enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="q-desc">Brief description</label>
+              <textarea class="form-control" id="q-desc" name="description" placeholder="Tell us a bit more about what you need…"></textarea>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="q-time">Preferred contact time</label>
+              <select class="form-control" id="q-time" name="contact_time">
+                <option value="">No preference</option>
+                <option>Morning (8am–12pm)</option>
+                <option>Afternoon (12pm–5pm)</option>
+                <option>Either is fine</option>
+              </select>
+            </div>
+            <div class="form-group" style="margin-bottom:1.75rem">
+              <label class="form-checkbox">
+                <input type="checkbox" required>
+                <span>I consent to GasWorld Ltd using my information to respond to this quote request. See our <a href="#">Privacy&nbsp;Policy</a>.</span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-mint btn-lg btn-full">
+              Request my free quote
+            </button>
+            <p class="form-help form-help--center">No obligation. We'll get back to you within 1 working day.</p>
+          </form>
+        </div>
+
+        <!-- Why choose GasWorld -->
+        <div class="why-choose-strip">
+          <h3>Why choose GasWorld?</h3>
+          <div class="why-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><strong>Gas Safe registered</strong> all our engineers are Gas Safe certified, the legal requirement for gas work in Great Britain.</span>
+          </div>
+          <div class="why-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span><strong>Est. 1981 45 years of experience</strong> over 20,000 boilers installed across the South West.</span>
+          </div>
+          <div class="why-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <span><strong>Covering Bristol, Bath &amp; the South West</strong> two offices and a team of experienced local engineers.</span>
+          </div>
+        </div>
+
+        <!-- Testimonial -->
+        <div style="margin-top:1.5rem;background:var(--navy);border-radius:var(--radius-lg);padding:1.75rem">
+          <p style="font-style:italic;font-size:0.95rem;color:rgba(255,255,255,0.85);line-height:1.7;margin:0 0 1rem">"GasWorld completed a multi-point installation for us and the standard of work was exceptional. The engineers were tidy, professional, and kept us informed throughout."</p>
+          <div style="font-size:0.87rem;font-weight:700;color:var(--mint)">Cath Higgins</div>
+          <div style="font-size:0.8rem;color:rgba(255,255,255,0.5)">Domestic customer, Bristol</div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Simplified footer -->
+  <footer class="quote-footer-bar" role="contentinfo">
+    <p>
+      <a href="tel:01179725340">0117 972 5340</a>
+      &nbsp;·&nbsp;
+      1 Avon Valley Business Park, St Annes, Bristol BS4 4EU
+      &nbsp;·&nbsp;
+      <a href="index.html">gasworldltd.co.uk</a>
+      &nbsp;·&nbsp;
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p style="margin-top:0.4rem">© 2026 GasWorld Ltd. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

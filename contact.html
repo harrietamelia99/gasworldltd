@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | GasWorld Ltd Mechanical Heating &amp; Plumbing, Bristol</title>
+  <meta name="description" content="Get in touch with GasWorld Ltd. Offices in Bristol and Exeter. Call 0117 972 5340 or fill in our enquiry form for domestic, commercial, social housing, or renewables enquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <style>
+    .contact-info-block {
+      background: var(--off-white);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+    }
+    .contact-info-block h3 {
+      margin-bottom: 1.25rem;
+      font-size: 1.1rem;
+    }
+    .contact-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      font-size: 0.92rem;
+    }
+    .contact-detail svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      color: var(--navy);
+    }
+    .contact-detail a { color: var(--navy); font-weight: 600; }
+    .contact-detail a:hover { color: var(--navy-mid); }
+
+    .office-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      border-left: 4px solid var(--navy);
+      margin-bottom: 1rem;
+    }
+    .office-card:last-child { margin-bottom: 0; }
+    .office-card h4 { margin-bottom: 0.5rem; font-size: 1rem; }
+    .office-card p { font-size: 0.9rem; margin: 0; }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <div id="nav-container"></div>
+
+  <main id="main-content">
+
+    <!-- ── Page Hero ──────────────────────────────────── -->
+    <section class="hero-inner" aria-label="Contact GasWorld">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <div class="hero-inner-content">
+          <h1>Get in touch</h1>
+          <p class="lead">Whether you're a homeowner, developer, or contractor we'd love to hear about your project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact Form + Details ─────────────────────── -->
+    <section class="section bg-white" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="grid-2 contact-layout">
+
+          <!-- Form -->
+          <div class="reveal">
+            <p class="label">Send an enquiry</p>
+            <h2 id="contact-heading">Tell us about your project</h2>
+            <div class="form-card">
+              <form data-validate>
+                <div class="form-group">
+                  <label class="form-label" for="ct-name">Full name *</label>
+                  <input class="form-control" id="ct-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required>
+                </div>
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label class="form-label" for="ct-email">Email *</label>
+                    <input class="form-control" id="ct-email" name="email" type="email" placeholder="your@email.com" autocomplete="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="ct-phone">Phone *</label>
+                    <input class="form-control" id="ct-phone" name="phone" type="tel" placeholder="07700 000000" autocomplete="tel" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ct-type">Enquiry type *</label>
+                  <select class="form-control" id="ct-type" name="enquiry_type" required>
+                    <option value="">Select enquiry type…</option>
+                    <option>Domestic heating &amp; plumbing</option>
+                    <option>Commercial &amp; new build</option>
+                    <option>Social housing</option>
+                    <option>GW Renewables / Heat pump</option>
+                    <option>General enquiry</option>
+                    <option>Careers</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ct-msg">Project description / message *</label>
+                  <textarea class="form-control" id="ct-msg" name="message" placeholder="Tell us about your project, property, or enquiry…" required></textarea>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ct-source">How did you hear about us?</label>
+                  <select class="form-control" id="ct-source" name="source">
+                    <option value="">Please select…</option>
+                    <option>Google / online search</option>
+                    <option>Recommendation / word of mouth</option>
+                    <option>Returning customer</option>
+                    <option>Social media</option>
+                    <option>Contractor / developer referral</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-checkbox">
+                    <input type="checkbox" required>
+                    <span>I agree to GasWorld Ltd processing my personal data to handle this enquiry. See our <a href="#">Privacy&nbsp;Policy</a>.</span>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-full">Send enquiry</button>
+                <p class="form-help form-help--center">We aim to respond within 1 working day. For urgent enquiries, please call.</p>
+              </form>
+            </div>
+          </div>
+
+          <!-- Contact details -->
+          <div class="reveal">
+            <p class="label">Contact details</p>
+            <h2 class="h3">How to reach us</h2>
+
+            <!-- Phone + email -->
+            <div class="contact-info-block" style="margin-bottom:1.5rem">
+              <h3>Phone &amp; email</h3>
+              <div class="contact-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <div style="font-weight:600;color:var(--navy)">Main office</div>
+                  <a href="tel:01179725340">0117 972 5340</a>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 8 10-8"/></svg>
+                <div>
+                  <div style="font-weight:600;color:var(--navy)">Email</div>
+                  <a href="mailto:info@gasworldltd.co.uk">info@gasworldltd.co.uk</a>
+                </div>
+              </div>
+              <div style="font-size:0.83rem;color:var(--text-light);margin-top:0.5rem">Office hours: Mon–Fri 8:00am–5:30pm</div>
+            </div>
+
+            <!-- Offices -->
+            <div class="contact-info-block" style="margin-bottom:1.5rem">
+              <h3>Our offices</h3>
+              <div class="office-card">
+                <h4>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:0.4rem"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                  Bristol Head Office
+                </h4>
+                <p>1 Avon Valley Business Park<br>Chapel Way, St Annes<br>Bristol BS4 4EU</p>
+              </div>
+              <div class="office-card" style="border-left-color:var(--blue)">
+                <h4>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:0.4rem"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                  Exeter Regional Office
+                </h4>
+                <p style="color:var(--text-light)">Address TBC confirm with client before launch</p>
+              </div>
+            </div>
+
+            <!-- Quick links -->
+            <div class="contact-info-block">
+              <h3>Looking for something specific?</h3>
+              <div style="display:flex;flex-direction:column;gap:0.6rem">
+                <a href="quote.html" class="arrow-link" style="font-size:0.9rem">
+                  Domestic quote request
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                </a>
+                <a href="renewables.html#survey-form" class="arrow-link" style="font-size:0.9rem">
+                  Book a free heat pump survey
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                </a>
+                <a href="careers.html" class="arrow-link" style="font-size:0.9rem">
+                  Job applications
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Coverage Map ───────────────────────────────── -->
+    <section class="section bg-off-white" aria-labelledby="map-heading">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <p class="label">Coverage</p>
+          <h2 id="map-heading">Where we work</h2>
+          <p>GasWorld operates across Bristol, Bath, Somerset, Devon, Wiltshire, Gloucestershire and the wider South West.</p>
+        </div>
+        <div class="map-embed reveal">
+          <iframe
+            src="https://maps.google.com/maps?q=1+Avon+Valley+Business+Park,+Chapel+Way,+St+Annes,+Bristol+BS4+4EU&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="420"
+            style="border:0;border-radius:var(--radius-lg);display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="GasWorld Bristol office location">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    initComponents({ activePage: '', showCtaBanner: false });
+  </script>
+</body>
+</html>

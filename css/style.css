@@ -2114,9 +2114,9 @@ textarea.form-control {
   .team-card-featured .team-card-img { height: 220px; }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 700px) {
   .leadership-grid { grid-template-columns: 1fr; gap: 1rem; }
-  .team-card-featured .team-card-img { height: 260px; }
+  .team-card-featured .team-card-img { height: 280px; }
 }
 
 /* ============================================================

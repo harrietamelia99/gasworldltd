@@ -3420,12 +3420,12 @@ body.renewables-mode .site-nav.solid {
   .footer-contact-item { padding: 0.45rem 0; }
   .footer-col-accordion { border-top: 1px solid rgba(255,255,255,0.08); }
   .footer-col-accordion:last-of-type { border-bottom: 1px solid rgba(255,255,255,0.08); }
-  .footer-brand { padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .footer-brand { padding: 0.5rem 0 2rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
   .footer-brand p { font-size: 0.82rem; }
 
   /* ── footer ── */
   .footer-grid { gap: 0; }
-  .site-footer { padding: 2.5rem 1.5rem 2rem; }
+  .site-footer { padding: 3rem 1.75rem 2rem; }
   .site-footer .container { padding-left: 0; padding-right: 0; }
 
   /* ── mobile overlay ── */
@@ -3512,7 +3512,7 @@ body.renewables-mode .site-nav.solid {
   .accreditation-badge { font-size: 0.78rem; padding: 0.4rem 0.75rem; }
 
   /* ── footer ── */
-  .site-footer { padding: 2rem 1.25rem 1.5rem; }
+  .site-footer { padding: 2.5rem 1.5rem 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
 }
 

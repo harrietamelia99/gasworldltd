@@ -271,6 +271,7 @@ function buildFooter() {
         <!-- Bottom bar -->
         <div class="footer-bottom">
           <p class="footer-bottom-text">© 2026 GasWorld Ltd. All rights reserved. Registered in England &amp; Wales.</p>
+          <p class="footer-bottom-text" style="opacity:0.45;font-size:0.75rem">Site by <a href="https://www.collectivstudio.uk" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px">collectivstudio.uk</a></p>
           <div class="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Cookie Policy</a>

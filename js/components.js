@@ -202,8 +202,8 @@ function buildFooter() {
             <div class="footer-tagline">Mechanical Heating &amp; Plumbing</div>
             <p>Professional plumbing and heating specialists across the South West since 1981. Offices in Bristol and Exeter.</p>
             <div class="footer-social">
-              <a href="#" aria-label="LinkedIn">${icons.linkedin}</a>
-              <a href="#" aria-label="Facebook">${icons.facebook}</a>
+              <a href="https://www.linkedin.com/company/5315677" target="_blank" rel="noopener" aria-label="LinkedIn">${icons.linkedin}</a>
+              <a href="https://www.facebook.com/Gasworldltd/" target="_blank" rel="noopener" aria-label="Facebook">${icons.facebook}</a>
             </div>
           </div>
 
@@ -254,7 +254,7 @@ function buildFooter() {
               </div>
               <div class="footer-contact-item">
                 ${icons.mapPin}
-                <span>Exeter Office (address TBC)</span>
+                <span>Unit 27, Onyx Business Park, De-Havilland Road, Skypark, Clyst Honiton, Exeter, EX5 2GG</span>
               </div>
               <div class="footer-contact-item">
                 ${icons.phone}

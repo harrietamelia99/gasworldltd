@@ -304,18 +304,14 @@ function buildCtaBanner() {
 
 // Accreditations bar
 function buildAccreditationsBar(dark = false) {
-  const badges = ['Gas Safe', 'MCS', 'Oftec', 'ISO 9001', 'ISO 14001', 'ISO 45001', 'SSIP'];
-  const badgeHTML = badges.map(b => `
-    <div class="accreditation-badge">
-      <div class="accreditation-badge-icon">${b}</div>
-      <span class="accreditation-badge-name">${b}</span>
-    </div>`).join('');
+  const logos = [['gas-safe.png','Gas Safe Register'],['mcs.svg','MCS certified'],['oftec.png','OFTEC registered'],['iso-9001.jpg','BS EN ISO 9001 registered'],['ssip.png','SSIP accredited']];
+  const badgeHTML = logos.map(([f,a]) => `<img class="accreditation-logo" src="img/accreditations/${f}" alt="${a}" loading="lazy">`).join('');
 
   return `
     <section class="accreditations-section" style="${dark ? 'background:var(--off-white)' : ''}">
       <div class="container">
         <p class="accreditations-label">Accredited, registered, and recognised</p>
-        <div class="accreditations-grid">
+        <div class="accreditation-logos">
           ${badgeHTML}
         </div>
       </div>

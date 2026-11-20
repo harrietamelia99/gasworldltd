@@ -400,3 +400,23 @@ document.addEventListener('DOMContentLoaded', function () {
     slides[current].classList.add('is-active');
   }, 6000);
 })();
+
+// ── Cursor-following glow on page heroes ───────────────────
+(function () {
+  if (!window.matchMedia('(hover: hover)').matches) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.querySelectorAll('.hero-inner').forEach(hero => {
+    let raf = null;
+    hero.addEventListener('mousemove', e => {
+      const r = hero.getBoundingClientRect();
+      const x = e.clientX - r.left, y = e.clientY - r.top;
+      if (raf) cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        hero.style.setProperty('--glow-x', x + 'px');
+        hero.style.setProperty('--glow-y', y + 'px');
+      });
+      hero.classList.add('is-glowing');
+    });
+    hero.addEventListener('mouseleave', () => hero.classList.remove('is-glowing'));
+  });
+})();

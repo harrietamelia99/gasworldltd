@@ -3904,3 +3904,23 @@ main > section.photo-band {
   .accreditation-logos { gap: 1.5rem 2rem; }
   .accreditation-logo { height: 54px; max-width: 120px; }
 }
+
+/* Cursor-following glow on page heroes */
+.hero-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background:
+    radial-gradient(260px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgba(165,224,197,0.32), transparent 70%),
+    radial-gradient(620px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgba(90,120,220,0.30), transparent 70%);
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+.hero-inner.is-glowing::before { opacity: 1; }
+.hero-inner > .container { position: relative; z-index: 1; }
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .hero-inner::before { display: none; }
+}

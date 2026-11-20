@@ -159,12 +159,10 @@ p.lead {
 
 .label-pill {
   background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.25);
+  border: none;
   border-radius: var(--radius-pill);
   padding: 0.35em 0.9em;
   color: rgba(255,255,255,0.9);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
 }
 
 .label-mint { color: var(--mint); }
@@ -1042,7 +1040,7 @@ main > section,
   font-weight: 600;
   color: rgba(255,255,255,0.75);
   background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: none;
   border-radius: var(--radius-pill);
   padding: 0.35rem 0.9rem;
   transition: background var(--transition), color var(--transition), border-color var(--transition);
@@ -1560,8 +1558,8 @@ main > section,
 .testimonial-controls { display: none; }
 
 .testimonial-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.06);
+  border: none;
   border-radius: var(--radius-lg);
   padding: 2.5rem;
   display: flex;
@@ -1571,8 +1569,7 @@ main > section,
 }
 
 .testimonial-card:hover {
-  background: rgba(255,255,255,0.09);
-  border-color: rgba(165,224,197,0.45);
+  background: rgba(255,255,255,0.1);
   transform: translateY(-3px);
 }
 
@@ -1604,7 +1601,7 @@ main > section,
   height: 38px;
   border-radius: 50%;
   background: rgba(165,224,197,0.2);
-  border: 1px solid rgba(165,224,197,0.35);
+  border: none;
   color: var(--mint);
   font-size: 0.72rem;
   font-weight: 700;

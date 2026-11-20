@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 
@@ -21,11 +21,17 @@
 
     <!-- ── Hero ───────────────────────────────────────── -->
     <section class="hero-home" aria-label="Homepage hero">
-      <div class="hero-home-bg"></div>
+      <div class="hero-home-bg hero-slides" aria-hidden="true">
+        <div class="hero-slide is-active" style="background-image:url('img/hero-bg.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('img/moreton-ellenbrook-green.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('img/bath-press-exterior.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('img/heat-pump-install.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('img/moreton-ellenbrook-dusk.jpg')"></div>
+      </div>
       <div class="hero-home-overlay"></div>
       <div class="hero-home-content">
         <p class="label label-pill animate-in" style="margin-bottom:1.25rem">Est. 1981 · Bristol &amp; Exeter</p>
-        <h1 class="animate-in animate-in-delay-1">Professional plumbing and heating no matter the project</h1>
+        <h1 class="animate-in animate-in-delay-1">Professional plumbing and heating, no matter the project</h1>
         <p class="lead animate-in animate-in-delay-2">Mechanical heating &amp; plumbing specialists across the South West. Trusted by homeowners, house builders, housing associations, and contractors for over 45 years.</p>
         <div class="btn-group animate-in animate-in-delay-3">
           <a href="quote.html" class="btn btn-mint btn-lg">Get a quote</a>
@@ -55,7 +61,7 @@
         <div class="stat-item">
           <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           <div class="stat-number">Gas Safe</div>
-          <div class="stat-label">MCS · Oftec · SMAS</div>
+          <div class="stat-label">MCS · Oftec · ISO</div>
         </div>
       </div>
     </section>
@@ -66,7 +72,7 @@
         <div class="section-header reveal">
           <p class="label">What we do</p>
           <h2 id="services-heading">Heating and plumbing at every scale</h2>
-          <p class="lead">From domestic boiler replacements to large commercial mechanical installations one reliable, experienced team.</p>
+          <p class="lead">From domestic boiler replacements to large commercial mechanical installations, one reliable, experienced team.</p>
         </div>
         <div class="grid-3 reveal-stagger">
 
@@ -206,29 +212,38 @@
         <div class="grid-3 reveal-stagger">
 
           <article class="project-card">
-            <img class="project-card-img" src="img/paintworks-bristol.jpg" alt="Paint Works Bristol development" loading="lazy">
+            <a href="case-study-bath-press.html"><img class="project-card-img" src="img/bath-press-exterior.jpg" alt="City &amp; Country Bath Press, Bath" loading="lazy"></a>
             <div class="project-card-body">
-              <span class="card-tag tag-commercial">Commercial</span>
-              <h4>Paint Works Bristol</h4>
-              <p>Crest Nicholson · Bath Road, Bristol · 211 units</p>
+              <span class="card-tag tag-commercial">Commercial &amp; New Build</span>
+              <h4><a href="case-study-bath-press.html" style="color:inherit">City &amp; Country Bath Press</a></h4>
+              <p>City &amp; Country · Bath · Apartments &amp; townhouses</p>
+              <a href="case-study-bath-press.html" class="arrow-link mt-sm">Read case study
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
             </div>
           </article>
 
           <article class="project-card">
-            <img class="project-card-img" src="img/crest-harry-stoke.jpg" alt="Crest Harry Stoke new build development" loading="lazy">
+            <a href="case-study-moreton-in-marsh.html"><img class="project-card-img" src="img/moreton-ellenbrook-green.jpg" alt="Spitfire Homes Ellenbrook, Moreton-in-Marsh" loading="lazy"></a>
             <div class="project-card-body">
-              <span class="card-tag tag-commercial">Commercial</span>
-              <h4>Crest Harry Stoke</h4>
-              <p>Crest Nicholson · Harry Stoke, Bristol</p>
+              <span class="card-tag tag-renewables">New Build &amp; Renewables</span>
+              <h4><a href="case-study-moreton-in-marsh.html" style="color:inherit">Spitfire Homes Ellenbrook</a></h4>
+              <p>Spitfire Homes · Moreton-in-Marsh · 155 plots</p>
+              <a href="case-study-moreton-in-marsh.html" class="arrow-link mt-sm">Read case study
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
             </div>
           </article>
 
           <article class="project-card">
-            <img class="project-card-img" src="img/st-michaels-court.jpg" alt="St Michaels Court social housing" loading="lazy">
+            <a href="case-study-flowers-hill-grange.html"><img class="project-card-img" src="img/flowers-hill-street.jpg" alt="Bellway Homes Flowers Hill Grange, Brislington" loading="lazy"></a>
             <div class="project-card-body">
-              <span class="card-tag tag-social">Social Housing</span>
-              <h4>St Michaels Court</h4>
-              <p>Wilmot Dixon / PfP · Kingswood · 24 apartments</p>
+              <span class="card-tag tag-renewables">New Build &amp; Renewables</span>
+              <h4><a href="case-study-flowers-hill-grange.html" style="color:inherit">Bellway Flowers Hill Grange</a></h4>
+              <p>Bellway Homes · Brislington, Bristol · In progress</p>
+              <a href="case-study-flowers-hill-grange.html" class="arrow-link mt-sm">Read case study
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
             </div>
           </article>
 
@@ -313,11 +328,10 @@
           <span class="accreditation-badge">Gas Safe</span>
           <span class="accreditation-badge">MCS</span>
           <span class="accreditation-badge">Oftec</span>
-          <span class="accreditation-badge">SMAS</span>
-          <span class="accreditation-badge">Constructionline</span>
-          <span class="accreditation-badge">CHAS</span>
-          <span class="accreditation-badge">UKAS</span>
           <span class="accreditation-badge">ISO 9001</span>
+          <span class="accreditation-badge">ISO 14001</span>
+          <span class="accreditation-badge">ISO 45001</span>
+          <span class="accreditation-badge">SSIP</span>
         </div>
       </div>
     </section>
@@ -327,8 +341,8 @@
   <!-- Footer (includes CTA Banner) -->
   <div id="footer-container"></div>
 
-  <script src="js/components.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/components.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
   <script>
     initComponents({ activePage: 'home', showCtaBanner: true });
   </script>

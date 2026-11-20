@@ -289,7 +289,7 @@ function buildCtaBanner() {
     <section class="cta-banner">
       <div class="container">
         <h2>Ready to discuss your project?</h2>
-        <p>Whether you're a homeowner, developer, or contractor our team is here to help.</p>
+        <p>Whether you're a homeowner, developer, or contractor, our team is here to help.</p>
         <div class="btn-group" style="justify-content:center">
           <a href="quote.html" class="btn btn-primary btn-lg">Get a quote</a>
           <a href="tel:01179725340" class="btn btn-ghost-navy btn-lg">
@@ -304,7 +304,7 @@ function buildCtaBanner() {
 
 // Accreditations bar
 function buildAccreditationsBar(dark = false) {
-  const badges = ['Gas Safe', 'MCS', 'Oftec', 'SMAS', 'Constructionline', 'CHAS', 'UKAS'];
+  const badges = ['Gas Safe', 'MCS', 'Oftec', 'ISO 9001', 'ISO 14001', 'ISO 45001', 'SSIP'];
   const badgeHTML = badges.map(b => `
     <div class="accreditation-badge">
       <div class="accreditation-badge-icon">${b}</div>

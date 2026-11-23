@@ -10,12 +10,12 @@ const COOKIE = 'gw_session';
 const MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 
 const secret = () => {
-  const pw = process.env.ADMIN_PASSWORD || '';
+  const pw = (process.env.ADMIN_PASSWORD || '').trim();
   return crypto.createHash('sha256').update('gasworld-editor:' + pw).digest();
 };
 
 export const hasStorage = () => Boolean(process.env.BLOB_READ_WRITE_TOKEN);
-export const hasPassword = () => Boolean(process.env.ADMIN_PASSWORD);
+export const hasPassword = () => Boolean((process.env.ADMIN_PASSWORD || '').trim());
 
 function sign(value) {
   return crypto.createHmac('sha256', secret()).update(value).digest('base64url');
@@ -46,9 +46,10 @@ export function isLoggedIn(req) {
 }
 
 export function checkPassword(attempt) {
-  const pw = process.env.ADMIN_PASSWORD || '';
+  // Ignore stray spaces or line breaks either side (easy to add when pasting).
+  const pw = (process.env.ADMIN_PASSWORD || '').trim().replace(/^["']|["']$/g, '');
   if (!pw || typeof attempt !== 'string') return false;
-  const a = crypto.createHash('sha256').update(attempt).digest();
+  const a = crypto.createHash('sha256').update(attempt.trim()).digest();
   const b = crypto.createHash('sha256').update(pw).digest();
   return crypto.timingSafeEqual(a, b);
 }

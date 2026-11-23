@@ -100,7 +100,7 @@
           ${message ? `<div class="ed-error">${esc(message)}</div>` : ''}
           <div class="ed-field">
             <label class="ed-label" for="pw">Password</label>
-            <input class="ed-input" id="pw" type="password" autocomplete="current-password" required>
+            <input class="ed-input" id="pw" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" required>
           </div>
           <button class="ed-btn ed-btn-primary" type="submit" style="width:100%">Log in</button>
         </form>

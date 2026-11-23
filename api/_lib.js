@@ -45,6 +45,11 @@ export function isLoggedIn(req) {
   }
 }
 
+export function passwordMatchesIgnoringCase(attempt) {
+  const pw = (process.env.ADMIN_PASSWORD || '').trim().replace(/^["']|["']$/g, '');
+  return typeof attempt === 'string' && pw.length > 0 && attempt.trim().toLowerCase() === pw.toLowerCase();
+}
+
 export function checkPassword(attempt) {
   // Ignore stray spaces or line breaks either side (easy to add when pasting).
   const pw = (process.env.ADMIN_PASSWORD || '').trim().replace(/^["']|["']$/g, '');

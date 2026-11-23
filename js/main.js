@@ -405,7 +405,8 @@ document.addEventListener('DOMContentLoaded', function () {
 (function () {
   if (!window.matchMedia('(hover: hover)').matches) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  document.querySelectorAll('.hero-inner').forEach(hero => {
+  window.initHeroGlow = () => document.querySelectorAll('.hero-inner:not([data-glow])').forEach(hero => {
+    hero.setAttribute('data-glow', '');
     let raf = null;
     hero.addEventListener('mousemove', e => {
       const r = hero.getBoundingClientRect();
@@ -419,4 +420,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     hero.addEventListener('mouseleave', () => hero.classList.remove('is-glowing'));
   });
+  window.initHeroGlow();
 })();

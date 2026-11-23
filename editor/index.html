@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Editing area | GasWorld</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/editor/editor.css?v=1">
+</head>
+<body>
+  <header class="ed-header">
+    <div class="ed-header-inner">
+      <a class="ed-brand" href="/editor/" data-go="home">
+        <img src="/logo-wordmark.svg" alt="GasWorld" class="ed-wordmark">
+        <img src="/img/globe-icon.png" alt="" class="ed-globe">
+        <span class="ed-divider" aria-hidden="true"></span>
+        <span class="ed-title">Editing area</span>
+      </a>
+      <nav class="ed-nav" aria-label="Editing area" hidden>
+        <a href="#" data-go="home">Start</a>
+        <a href="#" data-go="help">Help</a>
+        <a href="/" target="_blank" rel="noopener">View website</a>
+        <a href="#" data-action="logout">Log out</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ed-main" id="app" aria-live="polite">
+    <p class="ed-muted">Loading…</p>
+  </main>
+
+  <div class="ed-toast" id="toast" role="status" hidden></div>
+
+  <div class="ed-modal" id="modal" hidden>
+    <div class="ed-modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <h2 id="modal-title"></h2>
+      <p id="modal-text"></p>
+      <div class="ed-actions">
+        <button class="ed-btn ed-btn-danger" id="modal-yes"></button>
+        <button class="ed-btn ed-btn-ghost" id="modal-no">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/editor/editor.js?v=1"></script>
+</body>
+</html>

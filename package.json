@@ -1,0 +1,8 @@
+{
+  "name": "gasworld-website",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@vercel/blob": "^1.1.1"
+  }
+}

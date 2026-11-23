@@ -1,9 +1,64 @@
 {
+  "redirects": [
+    {
+      "source": "/case-study-bath-press.html",
+      "destination": "/case-studies/bath-press",
+      "permanent": true
+    },
+    {
+      "source": "/case-study-moreton-in-marsh.html",
+      "destination": "/case-studies/moreton-in-marsh",
+      "permanent": true
+    },
+    {
+      "source": "/case-study-flowers-hill-grange.html",
+      "destination": "/case-studies/flowers-hill-grange",
+      "permanent": true
+    },
+    {
+      "source": "/editor",
+      "destination": "/editor/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/case-studies/:slug",
+      "destination": "/post.html"
+    },
+    {
+      "source": "/news/:slug",
+      "destination": "/post.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "(?<sub>.*)\\.vercel\\.app" }],
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<sub>.*)\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/editor/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
     }
   ]
 }

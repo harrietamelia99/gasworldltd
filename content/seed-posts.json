@@ -1,0 +1,147 @@
+{
+  "posts": [
+    {
+      "id": "bath-press",
+      "slug": "bath-press",
+      "type": "case-study",
+      "title": "City & Country Bath Press",
+      "summary": "Plumbing and heating for a landmark heritage regeneration in the heart of Bath.",
+      "date": "2026-11-19",
+      "image": "/img/bath-press-exterior.jpg",
+      "imageAlt": "City & Country Bath Press",
+      "body": "GasWorld was appointed to carry out the plumbing and heating installations for City & Country's Bath Press, a landmark regeneration transforming the historic former Pitman Press site into a collection of high-specification homes in the heart of Bath.\n\nThe development combines contemporary apartments and townhouses with the restoration of the site's iconic retained façade, creating a unique blend of heritage architecture and modern living.\n\nOur works\n- A main heating plant room\n- Multiple boosted cold water plant rooms\n- Full heating and water distribution, with a site-wide BMS system\n- Individual heat interface units in every apartment, giving residents full control of their own heating\n- Ideal Logic air source heat pumps to each townhouse\n\nWorking within a sensitive historic setting, our team collaborated closely with the wider construction and design teams to make sure every installation complemented the character and quality of the scheme, while meeting the demands of modern, energy-efficient living.\n\nThe result is a high-quality residential development that reflects both the heritage of the Bath Press site and the standards City & Country is known for.",
+      "facts": [
+        {
+          "label": "Client",
+          "value": "City & Country"
+        },
+        {
+          "label": "Location",
+          "value": "Bath"
+        },
+        {
+          "label": "Development",
+          "value": "Apartments & townhouses"
+        },
+        {
+          "label": "Systems",
+          "value": "Plant rooms, heat interface units, BMS, air source heat pumps"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/img/bath-press-entrance.jpg",
+          "alt": "The restored Bath Press façade"
+        },
+        {
+          "src": "/img/bath-press-courtyard.jpg",
+          "alt": "Bath Press apartments and courtyard"
+        },
+        {
+          "src": "/img/bath-press-exterior.jpg",
+          "alt": "Bath Press apartment building"
+        }
+      ],
+      "tag": "Commercial & New Build",
+      "published": true
+    },
+    {
+      "id": "moreton-in-marsh",
+      "slug": "moreton-in-marsh",
+      "type": "case-study",
+      "title": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+      "summary": "Air source heat pumps and full plumbing across an initial 155 Cotswold homes.",
+      "date": "2026-11-18",
+      "image": "/img/moreton-ellenbrook-green.jpg",
+      "imageAlt": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+      "body": "We delivered the plumbing and heating package for Spitfire Homes' Ellenbrook development in Moreton-in-Marsh, a collection of high-quality homes blending traditional Cotswold architecture with modern, energy-efficient living.\n\nOur works\n- Air source heat pumps across the development\n- Heating systems combining underfloor heating and radiators\n- All hot and cold water services\n- Sanitaryware and sustainable plumbing solutions\n\nAcross an initial 155 plots, the renewable technology we installed supports comfortable, low-carbon living in homes designed to be future-proofed.\n\nWorking alongside the wider construction team, we delivered reliable, high-specification installations that reflect the quality, craftsmanship and sustainability standards of the Ellenbrook development.",
+      "facts": [
+        {
+          "label": "Client",
+          "value": "Spitfire Homes"
+        },
+        {
+          "label": "Location",
+          "value": "Moreton-in-Marsh, Gloucestershire"
+        },
+        {
+          "label": "Scale",
+          "value": "Initial 155 plots"
+        },
+        {
+          "label": "Systems",
+          "value": "Air source heat pumps, underfloor heating & radiators"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/img/moreton-ellenbrook-homes.jpg",
+          "alt": "Homes at Ellenbrook, Moreton-in-Marsh"
+        },
+        {
+          "src": "/img/moreton-ellenbrook-street.jpg",
+          "alt": "Ellenbrook village green"
+        },
+        {
+          "src": "/img/moreton-ellenbrook-dusk.jpg",
+          "alt": "Ellenbrook homes at dusk"
+        },
+        {
+          "src": "/img/moreton-ellenbrook-detached.jpg",
+          "alt": "Detached homes at Ellenbrook"
+        },
+        {
+          "src": "/img/heat-pump-install.jpg",
+          "alt": "Air source heat pump installation"
+        }
+      ],
+      "tag": "New Build & Renewables",
+      "published": true
+    },
+    {
+      "id": "flowers-hill-grange",
+      "slug": "flowers-hill-grange",
+      "type": "case-study",
+      "title": "Bellway Homes Flowers Hill Grange",
+      "summary": "Heat pump heating and full plumbing across a new Bellway development in Brislington, Bristol.",
+      "date": "2026-11-20",
+      "image": "/img/flowers-hill-street.jpg",
+      "imageAlt": "Bellway Homes Flowers Hill Grange",
+      "body": "At Flowers Hill Grange in Brislington, Bristol, we are carrying out the full plumbing and heating installation across this modern Bellway Homes development, helping to deliver efficient, comfortable homes for future residents.\n\nOur works\n- Complete domestic plumbing systems throughout\n- Vaillant aroTHERM air source heat pumps to every house\n- Nibe exhaust air heat pumps to every apartment\n- Wet central heating throughout, with underfloor heating downstairs in some houses\n\nWith sustainability and energy efficiency at the forefront of the development, our work supports low-maintenance, environmentally conscious homes that meet the demands of today's homeowners.\n\nOur team works closely with site management and other trades to make sure every installation meets the highest standards of quality, reliability and performance.",
+      "facts": [
+        {
+          "label": "Client",
+          "value": "Bellway Homes"
+        },
+        {
+          "label": "Location",
+          "value": "Brislington, Bristol"
+        },
+        {
+          "label": "Status",
+          "value": "In progress"
+        },
+        {
+          "label": "Systems",
+          "value": "Air source & exhaust air heat pumps, underfloor heating"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/img/flowers-hill-apartments.jpg",
+          "alt": "Apartments at Flowers Hill Grange"
+        },
+        {
+          "src": "/img/flowers-hill-street.jpg",
+          "alt": "Flowers Hill Grange street scene"
+        },
+        {
+          "src": "/img/flowers-hill-bathroom.jpg",
+          "alt": "Bathroom at Flowers Hill Grange"
+        }
+      ],
+      "tag": "New Build & Renewables",
+      "published": true
+    }
+  ]
+}

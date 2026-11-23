@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "id": "adam-lane",
+      "name": "Adam Lane",
+      "role": "Managing Director",
+      "bio": "Adam grew up around the business his parents, John and Angela Lane, founded in 1981, and officially joined in 2003 after completing his accountancy degree. Over more than 20 years he worked across every part of the business, helping it grow into one of the largest heating and renewables contractors in the South West. Adam took over as Managing Director in 2023 and keeps strong family values at the heart of the company, with a focus on reliable, high-quality service, trusted client relationships and supporting the next generation of engineers. Outside of work, he enjoys time with his wife and two children, travelling and playing golf.",
+      "photo": "/img/team-adam.jpg",
+      "group": "directors"
+    },
+    {
+      "id": "mike-stephens",
+      "name": "Mike Stephens",
+      "role": "Head of Production",
+      "bio": "Mike has over 13 years' experience with GasWorld, progressing from engineer to site supervisor, contract manager and now Head of Production. He directs the delivery of all active new build developments from start to completion, working closely with the contracts management team to keep programmes on track and maintain high standards of workmanship across every site. Mike also supports new business opportunities, client relationships and ongoing improvements in quality and health and safety.",
+      "photo": "/img/team-mike.jpg",
+      "group": "directors"
+    },
+    {
+      "id": "phil-moore",
+      "name": "Phil Moore",
+      "role": "Commercial Director",
+      "bio": "Phil leads GasWorld's commercial strategy, driving growth across the company's commercial, new build, and developer client base across the South West.",
+      "photo": "/img/team-phil.jpg",
+      "group": "directors"
+    },
+    {
+      "id": "rob-eason",
+      "name": "Rob Eason",
+      "role": "Estimating & Design Director",
+      "bio": "Rob joined GasWorld in 2008 and produces estimates from tender drawings through to contract negotiation, securing projects before handing them over to the contracts team. He began his career in 1981 designing public health systems for a consulting engineer, then spent five years as a Mechanical & Electrical Co-ordinator for a construction company, so he has seen installations from drawing board to completion, from both the main contractor and subcontractor side.",
+      "photo": "/img/team-rob.jpg",
+      "group": "directors"
+    },
+    {
+      "id": "wayne-fry",
+      "name": "Wayne Fry",
+      "role": "Social Housing Operations Director",
+      "bio": "Wayne oversees the day-to-day delivery of GasWorld's social housing contracts, managing engineer teams, programme compliance, and tenant satisfaction.",
+      "photo": "",
+      "group": "directors"
+    },
+    {
+      "id": "dave-ramplin",
+      "name": "Dave Ramplin",
+      "role": "Social Housing Commercial Director",
+      "bio": "Dave leads the commercial management of GasWorld's social housing division, handling contract negotiations, valuations, and client relationships with housing associations and local authorities.",
+      "photo": "",
+      "group": "directors"
+    },
+    {
+      "id": "ben-chick",
+      "name": "Ben Chick",
+      "role": "Finance Director",
+      "bio": "Ben manages GasWorld's financial operations, ensuring the business maintains the strong foundations needed to deliver on its growth ambitions.",
+      "photo": "/img/team-ben.jpg",
+      "group": "directors"
+    },
+    {
+      "id": "samantha-curnock",
+      "name": "Samantha Curnock",
+      "role": "Customer Care Manager",
+      "bio": "Samantha oversees private customer service and repairs, alongside new-build aftercare, making sure remedial works are delivered within agreed timescales. She leads a small team of office administrators and field engineers, working closely with manufacturers, suppliers and developers to resolve issues quickly and effectively.",
+      "photo": "/img/team-sam.jpg",
+      "group": "team"
+    },
+    {
+      "id": "stephen-bacon",
+      "name": "Stephen Bacon",
+      "role": "Procurement Manager",
+      "bio": "Stephen manages GasWorld's procurement, sourcing the materials, equipment and products our teams rely on. Working closely with suppliers, manufacturers and our contracts team, he makes sure everything arrives on time, to specification and at the right price, keeping projects running smoothly from start to finish.",
+      "photo": "/img/team-stephen.jpg",
+      "group": "team"
+    }
+  ]
+}

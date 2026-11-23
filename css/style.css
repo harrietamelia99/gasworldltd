@@ -3921,3 +3921,25 @@ main > section.photo-band {
 @media (hover: none), (prefers-reduced-motion: reduce) {
   .hero-inner::before { display: none; }
 }
+
+/* ── Live vacancies ── */
+.job-list { display: grid; gap: 1rem; margin-bottom: 2.5rem; }
+.job-list[hidden] { display: none; }
+.job-card { padding: 1.5rem; background: var(--navy); border-radius: var(--radius-lg); color: rgba(255,255,255,0.8); }
+.job-card-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem; }
+.job-pill { display: inline-block; background: var(--mint); color: var(--navy); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.2rem 0.65rem; border-radius: 99px; margin-bottom: 0.6rem; }
+.job-title { color: #fff; margin: 0 0 0.35rem; font-size: 1.2rem; }
+.job-meta { color: rgba(255,255,255,0.7); margin: 0; font-size: 0.9rem; }
+.job-summary { color: rgba(255,255,255,0.85); margin: 1rem 0 0; max-width: 70ch; }
+.job-toggle { background: none; border: none; color: var(--mint); font: inherit; font-weight: 600; padding: 0; margin-top: 0.85rem; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.job-desc { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.15); max-width: 70ch; }
+.job-desc p, .job-desc li { color: rgba(255,255,255,0.85); }
+.job-desc h4 { color: #fff; margin: 1.1rem 0 0.4rem; font-size: 1rem; }
+.job-desc ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+.job-closing { color: var(--mint); font-size: 0.88rem; font-weight: 600; margin: 0.85rem 0 0; }
+.roles-subhead { font-size: 1.1rem; color: var(--navy); margin: 0 0 1rem; }
+.hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.form-error { background: #fbeceb; color: #b3261e; border-radius: var(--radius-md); padding: 0.8rem 1rem; margin-bottom: 1rem; font-weight: 500; }
+.form-error[hidden] { display: none; }
+.apply-done { text-align: center; padding: 2rem 1rem; }
+.apply-done h3 { color: var(--navy); margin-bottom: 0.5rem; }

@@ -1,0 +1,2962 @@
+{
+ "pages": [
+  {
+   "id": "index",
+   "label": "Home"
+  },
+  {
+   "id": "about",
+   "label": "About us"
+  },
+  {
+   "id": "services",
+   "label": "Services"
+  },
+  {
+   "id": "renewables",
+   "label": "GW Renewables"
+  },
+  {
+   "id": "projects",
+   "label": "Projects"
+  },
+  {
+   "id": "team",
+   "label": "Meet the team"
+  },
+  {
+   "id": "careers",
+   "label": "Careers"
+  },
+  {
+   "id": "contact",
+   "label": "Contact"
+  },
+  {
+   "id": "quote",
+   "label": "Get a quote"
+  },
+  {
+   "id": "news",
+   "label": "News & case studies"
+  }
+ ],
+ "fields": [
+  {
+   "key": "index-1",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Homepage hero",
+   "default": "img/hero-bg.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-2",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Homepage hero",
+   "default": "img/moreton-ellenbrook-green.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-3",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Homepage hero",
+   "default": "img/bath-press-exterior.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-4",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Homepage hero",
+   "default": "img/heat-pump-install.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-5",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Homepage hero",
+   "default": "img/moreton-ellenbrook-dusk.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-6",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Homepage hero",
+   "default": "Est. 1981 · Bristol & Exeter",
+   "multiline": true
+  },
+  {
+   "key": "index-7",
+   "page": "index",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Professional plumbing and heating, no matter the project",
+   "multiline": false
+  },
+  {
+   "key": "index-8",
+   "page": "index",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Mechanical heating & plumbing specialists across the South West. Trusted by homeowners, house builders, housing associations, and contractors for over 45 years.",
+   "multiline": true
+  },
+  {
+   "key": "index-9",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Get a quote",
+   "multiline": false
+  },
+  {
+   "key": "index-10",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Our services",
+   "multiline": false
+  },
+  {
+   "key": "index-11",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Years in Business",
+   "multiline": false
+  },
+  {
+   "key": "index-12",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "20,000+",
+   "multiline": false
+  },
+  {
+   "key": "index-13",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Boilers Installed",
+   "multiline": false
+  },
+  {
+   "key": "index-14",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Offices Bristol & Exeter",
+   "multiline": false
+  },
+  {
+   "key": "index-15",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "Gas Safe",
+   "multiline": false
+  },
+  {
+   "key": "index-16",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "MCS · Oftec · ISO",
+   "multiline": false
+  },
+  {
+   "key": "index-17",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Professional plumbing and heating, no matter the project",
+   "default": "What we do",
+   "multiline": true
+  },
+  {
+   "key": "index-18",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heating and plumbing at every scale",
+   "default": "Heating and plumbing at every scale",
+   "multiline": false
+  },
+  {
+   "key": "index-19",
+   "page": "index",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Heating and plumbing at every scale",
+   "default": "From domestic boiler replacements to large commercial mechanical installations, one reliable, experienced team.",
+   "multiline": true
+  },
+  {
+   "key": "index-20",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heating and plumbing at every scale",
+   "default": "Domestic Heating & Plumbing",
+   "multiline": false
+  },
+  {
+   "key": "index-21",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heating and plumbing at every scale",
+   "default": "Boiler replacements, central heating installation, full plumbing callouts, bathroom installation, and ongoing servicing for homeowners across the South West.",
+   "multiline": true
+  },
+  {
+   "key": "index-22",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heating and plumbing at every scale",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "index-23",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heating and plumbing at every scale",
+   "default": "Full mechanical design and installation for new build developments, commercial heating schemes, boiler houses, fire sprinkler systems, and renewable installations.",
+   "multiline": true
+  },
+  {
+   "key": "index-24",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heating and plumbing at every scale",
+   "default": "Social Housing",
+   "multiline": false
+  },
+  {
+   "key": "index-25",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heating and plumbing at every scale",
+   "default": "Large contract capability, tenant liaison officers, and high resident satisfaction scores. Long-standing partnerships with Alliance Homes, Places for People, and Wilmot Dixon.",
+   "multiline": true
+  },
+  {
+   "key": "index-26",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "Our MCS-certified team installs Air Source Heat Pumps and Solar PV across the South West. We handle the full process (from home survey to installation) and manage your Boiler Upgrade Scheme grant application from start to finish.",
+   "multiline": true
+  },
+  {
+   "key": "index-27",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "Explore GW Renewables",
+   "multiline": false
+  },
+  {
+   "key": "index-28",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "Check eligibility",
+   "multiline": false
+  },
+  {
+   "key": "index-29",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "img/ashp.jpg",
+   "alt": "Air source heat pump installation"
+  },
+  {
+   "key": "index-30",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "img/engineer-customer.jpg",
+   "alt": "GasWorld team of engineers"
+  },
+  {
+   "key": "index-31",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Switch to renewable energy & claim up to £7,500 in government grants",
+   "default": "About GasWorld",
+   "multiline": true
+  },
+  {
+   "key": "index-32",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "Trusted across the South West for over 40 years",
+   "multiline": false
+  },
+  {
+   "key": "index-33",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "GasWorld engineers are highly skilled, experienced, and continually trained across a wide range of heating systems. Based in Bristol since 1981, we've grown into one of the South West's most trusted mechanical heating and plumbing contractors.",
+   "multiline": true
+  },
+  {
+   "key": "index-34",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "We work with national house builders, local authorities, housing associations, and private sector clients delivering the same high standard of work regardless of project scale.",
+   "multiline": true
+  },
+  {
+   "key": "index-35",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "About us",
+   "multiline": false
+  },
+  {
+   "key": "index-36",
+   "page": "index",
+   "type": "image",
+   "label": "Background photo",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "img/moreton-ellenbrook-homes.jpg",
+   "alt": ""
+  },
+  {
+   "key": "index-37",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Trusted across the South West for over 40 years",
+   "default": "Trusted partners",
+   "multiline": true
+  },
+  {
+   "key": "index-38",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heating and plumbing for the South West's leading house buil",
+   "default": "Heating and plumbing for the South West's leading house builders",
+   "multiline": false
+  },
+  {
+   "key": "index-39",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heating and plumbing for the South West's leading house builders",
+   "default": "City & Country · Spitfire Homes · Bellway Homes · Crest Nicholson · Places for People",
+   "multiline": true
+  },
+  {
+   "key": "index-40",
+   "page": "index",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Heating and plumbing for the South West's leading house builders",
+   "default": "See our projects",
+   "multiline": false
+  },
+  {
+   "key": "index-41",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Heating and plumbing for the South West's leading house builders",
+   "default": "Recent projects",
+   "multiline": true
+  },
+  {
+   "key": "index-42",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Our work, at scale",
+   "default": "Our work, at scale",
+   "multiline": false
+  },
+  {
+   "key": "index-43",
+   "page": "index",
+   "type": "text",
+   "label": "Small label",
+   "section": "Our work, at scale",
+   "default": "Client reviews",
+   "multiline": true
+  },
+  {
+   "key": "index-44",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "What our clients say",
+   "default": "What our clients say",
+   "multiline": false
+  },
+  {
+   "key": "index-45",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "What our clients say",
+   "default": "GasWorld completed a multi-point installation for us and the standard of work was exceptional. The engineers were tidy, professional, and kept us informed throughout.",
+   "multiline": true
+  },
+  {
+   "key": "index-46",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Cath Higgins",
+   "multiline": false
+  },
+  {
+   "key": "index-47",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Multi Point Installation, Bristol",
+   "multiline": false
+  },
+  {
+   "key": "index-48",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "What our clients say",
+   "default": "Couldn't fault the engineers, they were polite, efficient, and left everything spotless. The quality of work speaks for itself. Highly recommend GasWorld.",
+   "multiline": true
+  },
+  {
+   "key": "index-49",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Mr Cook",
+   "multiline": false
+  },
+  {
+   "key": "index-50",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Domestic Customer, South West",
+   "multiline": false
+  },
+  {
+   "key": "index-51",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "What our clients say",
+   "default": "We've worked with GasWorld on social housing contracts for many years. Their reliability, quality, and resident satisfaction scores are consistently excellent.",
+   "multiline": true
+  },
+  {
+   "key": "index-52",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Alliance Homes",
+   "multiline": false
+  },
+  {
+   "key": "index-53",
+   "page": "index",
+   "type": "text",
+   "label": "Text",
+   "section": "What our clients say",
+   "default": "Social Housing Partner",
+   "multiline": false
+  },
+  {
+   "key": "index-54",
+   "page": "index",
+   "type": "text",
+   "label": "Heading",
+   "section": "Accredited, registered and recognised",
+   "default": "Accredited, registered and recognised",
+   "multiline": false
+  },
+  {
+   "key": "index-55",
+   "page": "index",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Accredited, registered and recognised",
+   "default": "Every engineer, every project, held to the highest standards.",
+   "multiline": true
+  },
+  {
+   "key": "index-56",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Accredited, registered and recognised",
+   "default": "img/accreditations/gas-safe.png",
+   "alt": "Gas Safe Register"
+  },
+  {
+   "key": "index-57",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Accredited, registered and recognised",
+   "default": "img/accreditations/mcs.svg",
+   "alt": "MCS certified"
+  },
+  {
+   "key": "index-58",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Accredited, registered and recognised",
+   "default": "img/accreditations/oftec.png",
+   "alt": "OFTEC registered"
+  },
+  {
+   "key": "index-59",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Accredited, registered and recognised",
+   "default": "img/accreditations/iso-9001.jpg",
+   "alt": "BS EN ISO 9001 registered"
+  },
+  {
+   "key": "index-60",
+   "page": "index",
+   "type": "image",
+   "label": "Photo",
+   "section": "Accredited, registered and recognised",
+   "default": "img/accreditations/ssip.png",
+   "alt": "SSIP accredited"
+  },
+  {
+   "key": "about-1",
+   "page": "about",
+   "type": "text",
+   "label": "Main heading",
+   "section": "About GasWorld",
+   "default": "About GasWorld",
+   "multiline": false
+  },
+  {
+   "key": "about-2",
+   "page": "about",
+   "type": "text",
+   "label": "Intro text",
+   "section": "About GasWorld",
+   "default": "Est. 1981. Bristol-based. The South West's trusted mechanical heating and plumbing specialists.",
+   "multiline": true
+  },
+  {
+   "key": "about-3",
+   "page": "about",
+   "type": "image",
+   "label": "Photo",
+   "section": "About GasWorld",
+   "default": "img/gasworld-office.jpg",
+   "alt": "GasWorld Ltd Bristol head office"
+  },
+  {
+   "key": "about-4",
+   "page": "about",
+   "type": "text",
+   "label": "Small label",
+   "section": "About GasWorld",
+   "default": "Our story",
+   "multiline": true
+  },
+  {
+   "key": "about-5",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "A South West institution since 1981",
+   "default": "A South West institution since 1981",
+   "multiline": false
+  },
+  {
+   "key": "about-6",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "A South West institution since 1981",
+   "default": "GasWorld was founded in Bristol in 1981 with a simple principle: deliver exceptional heating and plumbing work, every time. Over four decades later, that principle drives everything we do.",
+   "multiline": true
+  },
+  {
+   "key": "about-7",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "A South West institution since 1981",
+   "default": "We offer heating, plumbing, and renewable energy services across the South West from our head office in St Annes, Bristol, and our second office in Exeter.",
+   "multiline": true
+  },
+  {
+   "key": "about-8",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "A South West institution since 1981",
+   "default": "Years trading",
+   "multiline": false
+  },
+  {
+   "key": "about-9",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "A South West institution since 1981",
+   "default": "20,000+",
+   "multiline": false
+  },
+  {
+   "key": "about-10",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "A South West institution since 1981",
+   "default": "Boilers installed",
+   "multiline": false
+  },
+  {
+   "key": "about-11",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "A South West institution since 1981",
+   "default": "Regional offices",
+   "multiline": false
+  },
+  {
+   "key": "about-12",
+   "page": "about",
+   "type": "image",
+   "label": "Photo",
+   "section": "A South West institution since 1981",
+   "default": "img/gasworld-office.jpg",
+   "alt": "GasWorld Ltd Bristol head office"
+  },
+  {
+   "key": "about-13",
+   "page": "about",
+   "type": "text",
+   "label": "Small label",
+   "section": "A South West institution since 1981",
+   "default": "Why choose us",
+   "multiline": true
+  },
+  {
+   "key": "about-14",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Built on experience, quality, and reliability",
+   "multiline": false
+  },
+  {
+   "key": "about-15",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Experience",
+   "multiline": false
+  },
+  {
+   "key": "about-16",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Built on experience, quality, and reliability",
+   "default": "45 years of continuous operation. Over 20,000 boilers installed across the Westcountry. We've seen and solved it all.",
+   "multiline": true
+  },
+  {
+   "key": "about-17",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Quality",
+   "multiline": false
+  },
+  {
+   "key": "about-18",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Gas Safe registered and ISO 9001, 14001 & 45001 certified. Our ongoing training programme keeps standards exceptionally high.",
+   "multiline": true
+  },
+  {
+   "key": "about-19",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Reliability",
+   "multiline": false
+  },
+  {
+   "key": "about-20",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Dedicated customer care team, warranty support, tenant liaison officers. We build long-term client relationships, some spanning decades.",
+   "multiline": true
+  },
+  {
+   "key": "about-21",
+   "page": "about",
+   "type": "text",
+   "label": "Small label",
+   "section": "Built on experience, quality, and reliability",
+   "default": "Where we work",
+   "multiline": true
+  },
+  {
+   "key": "about-22",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Operating across the South West of England",
+   "default": "Operating across the South West of England",
+   "multiline": false
+  },
+  {
+   "key": "about-23",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Operating across the South West of England",
+   "default": "From our Bristol HQ and Exeter office, our engineers cover the full South West region.",
+   "multiline": true
+  },
+  {
+   "key": "about-24",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Operating across the South West of England",
+   "default": "Coverage areas",
+   "multiline": false
+  },
+  {
+   "key": "about-25",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Operating across the South West of England",
+   "default": "Bristol HQ",
+   "multiline": false
+  },
+  {
+   "key": "about-26",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Operating across the South West of England",
+   "default": "1 Avon Valley Business Park\nChapel Way, St Annes\nBristol BS4 4EU",
+   "multiline": true
+  },
+  {
+   "key": "about-27",
+   "page": "about",
+   "type": "text",
+   "label": "Small label",
+   "section": "Operating across the South West of England",
+   "default": "Credentials",
+   "multiline": true
+  },
+  {
+   "key": "about-28",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Fully accredited and recognised",
+   "default": "Fully accredited and recognised",
+   "multiline": false
+  },
+  {
+   "key": "about-29",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "Gas Safe",
+   "multiline": false
+  },
+  {
+   "key": "about-30",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "Gas Safe Registered",
+   "multiline": false
+  },
+  {
+   "key": "about-31",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "All our engineers are Gas Safe registered, the legal requirement for working on gas appliances in Great Britain.",
+   "multiline": true
+  },
+  {
+   "key": "about-32",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "MCS",
+   "multiline": false
+  },
+  {
+   "key": "about-33",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "Microgeneration Certification Scheme",
+   "multiline": false
+  },
+  {
+   "key": "about-34",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "MCS certification covers our renewable energy installations, giving customers confidence in the quality of every heat pump we fit.",
+   "multiline": true
+  },
+  {
+   "key": "about-35",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "Oftec",
+   "multiline": false
+  },
+  {
+   "key": "about-36",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "Oftec Registered",
+   "multiline": false
+  },
+  {
+   "key": "about-37",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "Registered for oil and biomass installations, essential for properties not connected to the gas grid.",
+   "multiline": true
+  },
+  {
+   "key": "about-38",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "ISO 9001",
+   "multiline": false
+  },
+  {
+   "key": "about-39",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "ISO 9001 Quality Management",
+   "multiline": false
+  },
+  {
+   "key": "about-40",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "International quality management standard evidencing our consistent, high-quality processes across all services.",
+   "multiline": true
+  },
+  {
+   "key": "about-41",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "ISO 14001 & 45001",
+   "multiline": false
+  },
+  {
+   "key": "about-42",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "Environmental, Health & Safety",
+   "multiline": false
+  },
+  {
+   "key": "about-43",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "ISO 14001 and ISO 45001 certification demonstrate our commitment to minimising environmental impact and protecting our workforce and clients on every site.",
+   "multiline": true
+  },
+  {
+   "key": "about-44",
+   "page": "about",
+   "type": "text",
+   "label": "Text",
+   "section": "Fully accredited and recognised",
+   "default": "SSIP",
+   "multiline": false
+  },
+  {
+   "key": "about-45",
+   "page": "about",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Fully accredited and recognised",
+   "default": "SSIP Accredited",
+   "multiline": false
+  },
+  {
+   "key": "about-46",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Fully accredited and recognised",
+   "default": "Our health and safety accreditation is recognised under Safety Schemes in Procurement (SSIP), giving clients and main contractors assurance of safe working practices.",
+   "multiline": true
+  },
+  {
+   "key": "about-47",
+   "page": "about",
+   "type": "text",
+   "label": "Small label",
+   "section": "Fully accredited and recognised",
+   "default": "The people",
+   "multiline": true
+  },
+  {
+   "key": "about-48",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Meet the leadership team",
+   "default": "Meet the leadership team",
+   "multiline": false
+  },
+  {
+   "key": "about-49",
+   "page": "about",
+   "type": "text",
+   "label": "Heading",
+   "section": "Ready to work together?",
+   "default": "Ready to work together?",
+   "multiline": false
+  },
+  {
+   "key": "about-50",
+   "page": "about",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Ready to work together?",
+   "default": "Whether you're a homeowner, developer, or housing association we'd love to hear about your project.",
+   "multiline": true
+  },
+  {
+   "key": "about-51",
+   "page": "about",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Ready to work together?",
+   "default": "Work with us",
+   "multiline": false
+  },
+  {
+   "key": "about-52",
+   "page": "about",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Ready to work together?",
+   "default": "Join our team",
+   "multiline": false
+  },
+  {
+   "key": "services-1",
+   "page": "services",
+   "type": "text",
+   "label": "Small label",
+   "section": "Services",
+   "default": "What we do",
+   "multiline": true
+  },
+  {
+   "key": "services-2",
+   "page": "services",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Heating & plumbing at every scale",
+   "default": "Heating & plumbing at every scale",
+   "multiline": false
+  },
+  {
+   "key": "services-3",
+   "page": "services",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Heating & plumbing at every scale",
+   "default": "From domestic boiler replacements to large commercial mechanical installations, one reliable, experienced team across the South West.",
+   "multiline": true
+  },
+  {
+   "key": "services-4",
+   "page": "services",
+   "type": "image",
+   "label": "Photo",
+   "section": "Heating & plumbing at every scale",
+   "default": "img/domestic-heating.jpg",
+   "alt": "Modern boiler installation in a home"
+  },
+  {
+   "key": "services-5",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heating & plumbing at every scale",
+   "default": "01 · Domestic",
+   "multiline": true
+  },
+  {
+   "key": "services-6",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "Domestic Heating & Plumbing",
+   "default": "Domestic Heating & Plumbing",
+   "multiline": false
+  },
+  {
+   "key": "services-7",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Domestic Heating & Plumbing",
+   "default": "Expert heating and plumbing for homeowners across Bristol, Bath, and the wider South West. Our Gas Safe registered engineers cover Bristol, Bath, Gloucester, Swindon, Taunton, and Exeter.",
+   "multiline": true
+  },
+  {
+   "key": "services-8",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Domestic Heating & Plumbing",
+   "default": "Coverage area",
+   "multiline": false
+  },
+  {
+   "key": "services-9",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Domestic Heating & Plumbing",
+   "default": "Bristol · Bath · Gloucester · Swindon · Taunton · Exeter and surrounding areas",
+   "multiline": true
+  },
+  {
+   "key": "services-10",
+   "page": "services",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Domestic Heating & Plumbing",
+   "default": "Get a domestic quote →",
+   "multiline": false
+  },
+  {
+   "key": "services-11",
+   "page": "services",
+   "type": "image",
+   "label": "Photo",
+   "section": "Domestic Heating & Plumbing",
+   "default": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
+   "alt": "Commercial mechanical installation on new build development"
+  },
+  {
+   "key": "services-12",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Domestic Heating & Plumbing",
+   "default": "02 · Commercial",
+   "multiline": true
+  },
+  {
+   "key": "services-13",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "Commercial & New Build",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "services-14",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Commercial & New Build",
+   "default": "Full mechanical design and installation for developers, contractors, and commercial clients. We deliver complete mechanical packages from design through to commissioning.",
+   "multiline": true
+  },
+  {
+   "key": "services-15",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Commercial & New Build",
+   "default": "Notable clients",
+   "multiline": false
+  },
+  {
+   "key": "services-16",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Commercial & New Build",
+   "default": "Crest Nicholson · City & Country · Bouygues UK · Paint Works Bristol · Crest Harry Stoke",
+   "multiline": true
+  },
+  {
+   "key": "services-17",
+   "page": "services",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Commercial & New Build",
+   "default": "Discuss a project →",
+   "multiline": false
+  },
+  {
+   "key": "services-18",
+   "page": "services",
+   "type": "image",
+   "label": "Photo",
+   "section": "Commercial & New Build",
+   "default": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
+   "alt": "Social housing development"
+  },
+  {
+   "key": "services-19",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Commercial & New Build",
+   "default": "03 · Social Housing",
+   "multiline": true
+  },
+  {
+   "key": "services-20",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "Social Housing",
+   "default": "Social Housing",
+   "multiline": false
+  },
+  {
+   "key": "services-21",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Social Housing",
+   "default": "Large contract capability, high resident satisfaction, and dedicated tenant liaison officers. A proven track record with housing associations, local authorities, and contractors.",
+   "multiline": true
+  },
+  {
+   "key": "services-22",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Social Housing",
+   "default": "Partners & notable projects",
+   "multiline": false
+  },
+  {
+   "key": "services-23",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Social Housing",
+   "default": "Alliance Homes · Places for People · Wilmot Dixon · St Michaels Court Kingswood · Malmesbury Nursing Home",
+   "multiline": true
+  },
+  {
+   "key": "services-24",
+   "page": "services",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Social Housing",
+   "default": "Discuss a contract →",
+   "multiline": false
+  },
+  {
+   "key": "services-25",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "Looking for renewable energy solutions?",
+   "default": "Looking for renewable energy solutions?",
+   "multiline": false
+  },
+  {
+   "key": "services-26",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Looking for renewable energy solutions?",
+   "default": "Our specialist GW Renewables arm offers MCS-certified Air Source Heat Pump installation with access to the Boiler Upgrade Scheme grant of up to £7,500.",
+   "multiline": true
+  },
+  {
+   "key": "services-27",
+   "page": "services",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Looking for renewable energy solutions?",
+   "default": "Explore GW Renewables →",
+   "multiline": false
+  },
+  {
+   "key": "services-28",
+   "page": "services",
+   "type": "text",
+   "label": "Small label",
+   "section": "Looking for renewable energy solutions?",
+   "default": "Our process",
+   "multiline": true
+  },
+  {
+   "key": "services-29",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "How we work",
+   "default": "How we work",
+   "multiline": false
+  },
+  {
+   "key": "services-30",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How we work",
+   "default": "A straightforward, transparent process from first contact to project completion.",
+   "multiline": true
+  },
+  {
+   "key": "services-31",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "How we work",
+   "default": "Enquiry & Survey",
+   "multiline": false
+  },
+  {
+   "key": "services-32",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How we work",
+   "default": "Get in touch and we'll arrange a site visit or survey at a time that suits you.",
+   "multiline": true
+  },
+  {
+   "key": "services-33",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "How we work",
+   "default": "Design & Specification",
+   "multiline": false
+  },
+  {
+   "key": "services-34",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How we work",
+   "default": "We design the right solution for your project and provide a clear, detailed quote.",
+   "multiline": true
+  },
+  {
+   "key": "services-35",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "How we work",
+   "default": "Installation",
+   "multiline": false
+  },
+  {
+   "key": "services-36",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How we work",
+   "default": "Our skilled engineers carry out the work to the highest standard, on time and on budget.",
+   "multiline": true
+  },
+  {
+   "key": "services-37",
+   "page": "services",
+   "type": "text",
+   "label": "Small heading",
+   "section": "How we work",
+   "default": "Aftercare & Warranty",
+   "multiline": false
+  },
+  {
+   "key": "services-38",
+   "page": "services",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How we work",
+   "default": "Full commissioning, documentation, and ongoing support through our aftercare team.",
+   "multiline": true
+  },
+  {
+   "key": "services-39",
+   "page": "services",
+   "type": "text",
+   "label": "Small label",
+   "section": "How we work",
+   "default": "Get started",
+   "multiline": true
+  },
+  {
+   "key": "services-40",
+   "page": "services",
+   "type": "text",
+   "label": "Heading",
+   "section": "Tell us about your project",
+   "default": "Tell us about your project",
+   "multiline": false
+  },
+  {
+   "key": "renewables-1",
+   "page": "renewables",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Cut your heating bills with a heat pump",
+   "default": "Cut your heating bills with a heat pump",
+   "multiline": false
+  },
+  {
+   "key": "renewables-2",
+   "page": "renewables",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Cut your heating bills with a heat pump",
+   "default": "Get a free survey",
+   "multiline": false
+  },
+  {
+   "key": "renewables-3",
+   "page": "renewables",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Cut your heating bills with a heat pump",
+   "default": "Call 0117 972 5340",
+   "multiline": false
+  },
+  {
+   "key": "renewables-4",
+   "page": "renewables",
+   "type": "image",
+   "label": "Photo",
+   "section": "Cut your heating bills with a heat pump",
+   "default": "img/ashp.jpg",
+   "alt": "Air source heat pump unit on exterior wall"
+  },
+  {
+   "key": "renewables-5",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "Cut your heating bills with a heat pump",
+   "default": "Government funding",
+   "multiline": true
+  },
+  {
+   "key": "renewables-6",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "Up to £7,500 off your installation",
+   "default": "Up to £7,500 off your installation",
+   "multiline": false
+  },
+  {
+   "key": "renewables-7",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Up to £7,500 off your installation",
+   "default": "The Boiler Upgrade Scheme is the UK government's flagship grant for replacing fossil fuel heating. As an MCS-certified installer, GW Renewables can support your BUS grant application, helping you access funding to reduce your installation cost.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-8",
+   "page": "renewables",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Up to £7,500 off your installation",
+   "default": "Check if you qualify →",
+   "multiline": false
+  },
+  {
+   "key": "renewables-9",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "Up to £7,500 off your installation",
+   "default": "Current BUS grant",
+   "multiline": true
+  },
+  {
+   "key": "renewables-10",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Up to £7,500 off your installation",
+   "default": "Available for qualifying Air Source Heat Pump installations in England & Wales. Subject to eligibility. Ask us at your free survey.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-11",
+   "page": "renewables",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Up to £7,500 off your installation",
+   "default": "Book a free survey",
+   "multiline": false
+  },
+  {
+   "key": "renewables-12",
+   "page": "renewables",
+   "type": "image",
+   "label": "Photo",
+   "section": "Up to £7,500 off your installation",
+   "default": "img/ashp.jpg",
+   "alt": "Heat pump engineer during installation"
+  },
+  {
+   "key": "renewables-13",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Up to £7,500 off your installation",
+   "default": "What we install",
+   "multiline": true
+  },
+  {
+   "key": "renewables-14",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "Air Source Heat Pump specialists",
+   "default": "Air Source Heat Pump specialists",
+   "multiline": false
+  },
+  {
+   "key": "renewables-15",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Air Source Heat Pump specialists",
+   "default": "GW Renewables focuses on the technology best suited to the South West: Air Source Heat Pumps, designed and installed by MCS-certified engineers with full manufacturer warranty.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-16",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Air Source Heat Pump specialists",
+   "default": "Also available",
+   "multiline": false
+  },
+  {
+   "key": "renewables-17",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Air Source Heat Pump specialists",
+   "default": "Annual servicing plans · Fault diagnosis & repair · Performance optimisation for existing systems",
+   "multiline": true
+  },
+  {
+   "key": "renewables-18",
+   "page": "renewables",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Air Source Heat Pump specialists",
+   "default": "Get a free survey →",
+   "multiline": false
+  },
+  {
+   "key": "renewables-19",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "Air Source Heat Pump specialists",
+   "default": "Simple process",
+   "multiline": true
+  },
+  {
+   "key": "renewables-20",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "From enquiry to warm home",
+   "default": "From enquiry to warm home",
+   "multiline": false
+  },
+  {
+   "key": "renewables-21",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "From enquiry to warm home",
+   "default": "A straightforward four-step journey from your first call to a fully commissioned, grant-funded heat pump.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-22",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "From enquiry to warm home",
+   "default": "Free Survey",
+   "multiline": false
+  },
+  {
+   "key": "renewables-23",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "From enquiry to warm home",
+   "default": "We visit your property, assess compatibility, and design the right system specification at no cost.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-24",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "From enquiry to warm home",
+   "default": "Fixed Quote",
+   "multiline": false
+  },
+  {
+   "key": "renewables-25",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "From enquiry to warm home",
+   "default": "Clear, all-in quote with the £7,500 BUS grant already deducted. No surprises, no hidden extras.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-26",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "From enquiry to warm home",
+   "default": "Installation",
+   "multiline": false
+  },
+  {
+   "key": "renewables-27",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "From enquiry to warm home",
+   "default": "Most homes are completed in 2–4 days by our MCS-certified engineers with minimal disruption.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-28",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "From enquiry to warm home",
+   "default": "Handover & Aftercare",
+   "multiline": false
+  },
+  {
+   "key": "renewables-29",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "From enquiry to warm home",
+   "default": "Full commissioning, MCS certificate, system walkthrough, and optional annual service plan.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-30",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "From enquiry to warm home",
+   "default": "Why choose us",
+   "multiline": true
+  },
+  {
+   "key": "renewables-31",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "The GW Renewables difference",
+   "default": "The GW Renewables difference",
+   "multiline": false
+  },
+  {
+   "key": "renewables-32",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "The GW Renewables difference",
+   "default": "MCS Certified",
+   "multiline": false
+  },
+  {
+   "key": "renewables-33",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "The GW Renewables difference",
+   "default": "Fully certified under the Microgeneration Certification Scheme, mandatory for BUS grant eligibility.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-34",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "The GW Renewables difference",
+   "default": "Grant Handled for You",
+   "multiline": false
+  },
+  {
+   "key": "renewables-35",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "The GW Renewables difference",
+   "default": "As MCS-certified installers we can support your BUS grant application. Grant funding is applied directly to your installation cost.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-36",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "The GW Renewables difference",
+   "default": "Free Design Survey",
+   "multiline": false
+  },
+  {
+   "key": "renewables-37",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "The GW Renewables difference",
+   "default": "Every installation starts with a thorough property survey to specify the right system for your home.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-38",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small heading",
+   "section": "The GW Renewables difference",
+   "default": "Aftercare & Maintenance",
+   "multiline": false
+  },
+  {
+   "key": "renewables-39",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "The GW Renewables difference",
+   "default": "Annual service plans, fault diagnosis, and ongoing support to keep your system running at peak efficiency.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-40",
+   "page": "renewables",
+   "type": "image",
+   "label": "Photo",
+   "section": "The GW Renewables difference",
+   "default": "img/moreton-ellenbrook-homes.jpg",
+   "alt": "Spitfire Homes Ellenbrook development, Moreton-in-Marsh"
+  },
+  {
+   "key": "renewables-41",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "The GW Renewables difference",
+   "default": "Project example",
+   "multiline": true
+  },
+  {
+   "key": "renewables-42",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+   "default": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+   "multiline": false
+  },
+  {
+   "key": "renewables-43",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+   "default": "We delivered the full plumbing and heating package for Spitfire Homes' Ellenbrook development, installing air source heat pumps with a mix of underfloor heating and radiators across high-quality Cotswold homes built for low-carbon living.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-44",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "Spitfire Homes Ellenbrook, Moreton-in-Marsh",
+   "default": "Common questions",
+   "multiline": true
+  },
+  {
+   "key": "renewables-45",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "Heat pump FAQs",
+   "default": "Heat pump FAQs",
+   "multiline": false
+  },
+  {
+   "key": "renewables-46",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "Most homes are suitable, including older properties. Key factors are available outdoor space for the unit, reasonable insulation, and a compatible heat distribution system (radiators or underfloor heating). Our free survey assesses your property and recommends the right specification.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-47",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "Installed costs typically range from £8,000 to £15,000 depending on property size and specification. With the £7,500 BUS grant deducted, your net investment is significantly lower. We provide fixed, transparent quotes after every survey.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-48",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "In many cases, yes. Modern heat pumps operate at higher flow temperatures than older models and work well with existing radiators. Some oversizing may be needed in colder rooms. We assess this during the free survey and include any upgrades in the quote.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-49",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "The BUS is a UK government grant of £7,500 towards qualifying heat pump installations. As a BUS-approved installer, we apply on your behalf. The grant is simply deducted from your total cost. You don't need to fill in any forms yourself.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-50",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "Most residential installations take 2 to 4 days. Properties requiring radiator upgrades may take a little longer. We give a clear timeline as part of the quote process.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-51",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Heat pump FAQs",
+   "default": "GW Renewables covers the full South West: Bristol, Bath, Somerset, Devon, Dorset, Wiltshire, Gloucestershire, and surrounding areas. Contact us to confirm your postcode.",
+   "multiline": true
+  },
+  {
+   "key": "renewables-52",
+   "page": "renewables",
+   "type": "text",
+   "label": "Small label",
+   "section": "Heat pump FAQs",
+   "default": "Get started",
+   "multiline": true
+  },
+  {
+   "key": "renewables-53",
+   "page": "renewables",
+   "type": "text",
+   "label": "Heading",
+   "section": "Book your free heat pump survey",
+   "default": "Book your free heat pump survey",
+   "multiline": false
+  },
+  {
+   "key": "renewables-54",
+   "page": "renewables",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Book your free heat pump survey",
+   "default": "Fill in your details and we'll arrange a convenient time for a no-obligation survey and quote. Most surveys take around an hour.",
+   "multiline": true
+  },
+  {
+   "key": "projects-1",
+   "page": "projects",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Our projects",
+   "default": "Our projects",
+   "multiline": false
+  },
+  {
+   "key": "projects-2",
+   "page": "projects",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Our projects",
+   "default": "From individual homes to large-scale new build developments across the South West.",
+   "multiline": true
+  },
+  {
+   "key": "projects-3",
+   "page": "projects",
+   "type": "text",
+   "label": "Heading",
+   "section": "Projects portfolio",
+   "default": "Projects portfolio",
+   "multiline": false
+  },
+  {
+   "key": "projects-4",
+   "page": "projects",
+   "type": "text",
+   "label": "Button text",
+   "section": "Projects portfolio",
+   "default": "All projects",
+   "multiline": false
+  },
+  {
+   "key": "projects-5",
+   "page": "projects",
+   "type": "text",
+   "label": "Button text",
+   "section": "Projects portfolio",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "projects-6",
+   "page": "projects",
+   "type": "text",
+   "label": "Button text",
+   "section": "Projects portfolio",
+   "default": "Social Housing",
+   "multiline": false
+  },
+  {
+   "key": "projects-7",
+   "page": "projects",
+   "type": "text",
+   "label": "Button text",
+   "section": "Projects portfolio",
+   "default": "Domestic",
+   "multiline": false
+  },
+  {
+   "key": "projects-8",
+   "page": "projects",
+   "type": "text",
+   "label": "Button text",
+   "section": "Projects portfolio",
+   "default": "Renewables",
+   "multiline": false
+  },
+  {
+   "key": "projects-9",
+   "page": "projects",
+   "type": "text",
+   "label": "Heading",
+   "section": "Projects portfolio",
+   "default": "More of our work",
+   "multiline": false
+  },
+  {
+   "key": "projects-10",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/paintworks-bristol.jpg",
+   "alt": "Paint Works Bristol development"
+  },
+  {
+   "key": "projects-11",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "projects-12",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "Paint Works Bristol",
+   "multiline": false
+  },
+  {
+   "key": "projects-13",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "Crest Nicholson · Bath Road, Bristol · 211 units · Full mechanical installation",
+   "multiline": true
+  },
+  {
+   "key": "projects-14",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/st-michaels-court.jpg",
+   "alt": "St Michaels Court Kingswood"
+  },
+  {
+   "key": "projects-15",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Social Housing",
+   "multiline": false
+  },
+  {
+   "key": "projects-16",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "St Michaels Court",
+   "multiline": false
+  },
+  {
+   "key": "projects-17",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "Wilmot Dixon / PfP · Kingswood · 24 apartments",
+   "multiline": true
+  },
+  {
+   "key": "projects-18",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/crest-harry-stoke.jpg",
+   "alt": "Crest Harry Stoke"
+  },
+  {
+   "key": "projects-19",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "projects-20",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "Crest Harry Stoke",
+   "multiline": false
+  },
+  {
+   "key": "projects-21",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "Crest Nicholson · Harry Stoke, Bristol · New build residential",
+   "multiline": true
+  },
+  {
+   "key": "projects-22",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/orchard-house.jpg",
+   "alt": "Orchard House Shirehampton"
+  },
+  {
+   "key": "projects-23",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Social Housing",
+   "multiline": false
+  },
+  {
+   "key": "projects-24",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "Orchard House",
+   "multiline": false
+  },
+  {
+   "key": "projects-25",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "Places for People · Shirehampton, Bristol",
+   "multiline": true
+  },
+  {
+   "key": "projects-26",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/city-country-factory.jpg",
+   "alt": "City and Country Factory No.1"
+  },
+  {
+   "key": "projects-27",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Commercial & New Build",
+   "multiline": false
+  },
+  {
+   "key": "projects-28",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "City & Country Factory No.1",
+   "multiline": false
+  },
+  {
+   "key": "projects-29",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "City & Country · Full mechanical package",
+   "multiline": true
+  },
+  {
+   "key": "projects-30",
+   "page": "projects",
+   "type": "image",
+   "label": "Photo",
+   "section": "Projects portfolio",
+   "default": "img/malmesbury-nursing-home.jpg",
+   "alt": "Malmesbury Nursing Home"
+  },
+  {
+   "key": "projects-31",
+   "page": "projects",
+   "type": "text",
+   "label": "Text",
+   "section": "Projects portfolio",
+   "default": "Commercial",
+   "multiline": false
+  },
+  {
+   "key": "projects-32",
+   "page": "projects",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Projects portfolio",
+   "default": "Malmesbury Nursing Home",
+   "multiline": false
+  },
+  {
+   "key": "projects-33",
+   "page": "projects",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Projects portfolio",
+   "default": "Bouygues UK · Malmesbury, Wiltshire · Commercial heating",
+   "multiline": true
+  },
+  {
+   "key": "projects-34",
+   "page": "projects",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Projects portfolio",
+   "default": "Discuss your project",
+   "multiline": false
+  },
+  {
+   "key": "team-1",
+   "page": "team",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Meet the team",
+   "default": "Meet the team",
+   "multiline": false
+  },
+  {
+   "key": "team-2",
+   "page": "team",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Meet the team",
+   "default": "The people behind 45 years of trusted heating and plumbing across the South West.",
+   "multiline": true
+  },
+  {
+   "key": "team-3",
+   "page": "team",
+   "type": "text",
+   "label": "Small label",
+   "section": "Meet the team",
+   "default": "Leadership",
+   "multiline": true
+  },
+  {
+   "key": "team-4",
+   "page": "team",
+   "type": "text",
+   "label": "Heading",
+   "section": "Meet the directors",
+   "default": "Meet the directors",
+   "multiline": false
+  },
+  {
+   "key": "team-5",
+   "page": "team",
+   "type": "text",
+   "label": "Small label",
+   "section": "Meet the directors",
+   "default": "The wider team",
+   "multiline": true
+  },
+  {
+   "key": "team-6",
+   "page": "team",
+   "type": "text",
+   "label": "Heading",
+   "section": "Engineers, estimators & support",
+   "default": "Engineers, estimators & support",
+   "multiline": false
+  },
+  {
+   "key": "team-7",
+   "page": "team",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Engineers, estimators & support",
+   "default": "Behind our directors is a team of skilled engineers, project managers, estimators, customer care staff and apprentices.",
+   "multiline": true
+  },
+  {
+   "key": "team-8",
+   "page": "team",
+   "type": "text",
+   "label": "Small label",
+   "section": "Engineers, estimators & support",
+   "default": "In their own words",
+   "multiline": true
+  },
+  {
+   "key": "team-9",
+   "page": "team",
+   "type": "text",
+   "label": "Heading",
+   "section": "What the team say",
+   "default": "What the team say",
+   "multiline": false
+  },
+  {
+   "key": "team-10",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "\"Gas World is a family run business with excellent family values. Our team will always pull together to deliver a first class job for our clients.\"",
+   "multiline": true
+  },
+  {
+   "key": "team-11",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Dave Ramplin",
+   "multiline": false
+  },
+  {
+   "key": "team-12",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Social Housing Commercial Director",
+   "multiline": false
+  },
+  {
+   "key": "team-13",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "\"We're able to deliver a first class service for homeowners and contractors alike, and we can cater for projects of any size, from a single boiler to a 200-unit development.\"",
+   "multiline": true
+  },
+  {
+   "key": "team-14",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Rob Eason",
+   "multiline": false
+  },
+  {
+   "key": "team-15",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Estimating & Design Director",
+   "multiline": false
+  },
+  {
+   "key": "team-16",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "\"There are constantly new, diverse and complex challenges within my role. No two days are ever the same and that's exactly why I enjoy it.\"",
+   "multiline": true
+  },
+  {
+   "key": "team-17",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Lee Jenkins",
+   "multiline": false
+  },
+  {
+   "key": "team-18",
+   "page": "team",
+   "type": "text",
+   "label": "Quote",
+   "section": "What the team say",
+   "default": "Site Foreman",
+   "multiline": false
+  },
+  {
+   "key": "team-19",
+   "page": "team",
+   "type": "text",
+   "label": "Heading",
+   "section": "Want to join the team?",
+   "default": "Want to join the team?",
+   "multiline": false
+  },
+  {
+   "key": "team-20",
+   "page": "team",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Want to join the team?",
+   "default": "We're always looking for skilled engineers, plumbers, and apprentices. Find out what it's like to work at GasWorld.",
+   "multiline": true
+  },
+  {
+   "key": "team-21",
+   "page": "team",
+   "type": "text",
+   "label": "Button / link text",
+   "section": "Want to join the team?",
+   "default": "See opportunities →",
+   "multiline": false
+  },
+  {
+   "key": "careers-1",
+   "page": "careers",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Join the GasWorld team",
+   "default": "Join the GasWorld team",
+   "multiline": false
+  },
+  {
+   "key": "careers-2",
+   "page": "careers",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Join the GasWorld team",
+   "default": "We're always looking for skilled engineers, plumbers, and apprentices to grow with us.",
+   "multiline": true
+  },
+  {
+   "key": "careers-3",
+   "page": "careers",
+   "type": "text",
+   "label": "Small label",
+   "section": "Join the GasWorld team",
+   "default": "Why GasWorld",
+   "multiline": true
+  },
+  {
+   "key": "careers-4",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "More than just a job",
+   "default": "More than just a job",
+   "multiline": false
+  },
+  {
+   "key": "careers-5",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "More than just a job",
+   "default": "Culture",
+   "multiline": false
+  },
+  {
+   "key": "careers-6",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "More than just a job",
+   "default": "Family-run business with deep Bristol roots. Est. 1981, a team that looks out for each other and pulls together on every project.",
+   "multiline": true
+  },
+  {
+   "key": "careers-7",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "More than just a job",
+   "default": "Training",
+   "multiline": false
+  },
+  {
+   "key": "careers-8",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "More than just a job",
+   "default": "Ongoing training whenever new products and systems enter the market. We invest in our people to keep them at the forefront of the industry.",
+   "multiline": true
+  },
+  {
+   "key": "careers-9",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "More than just a job",
+   "default": "Variety",
+   "multiline": false
+  },
+  {
+   "key": "careers-10",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "More than just a job",
+   "default": "From domestic callouts to 200-unit commercial developments the work is diverse, challenging, and never repetitive.",
+   "multiline": true
+  },
+  {
+   "key": "careers-11",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "More than just a job",
+   "default": "Reputation",
+   "multiline": false
+  },
+  {
+   "key": "careers-12",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "More than just a job",
+   "default": "Industry accreditations, award-winning installations, and long-standing client relationships. Working for GasWorld means something.",
+   "multiline": true
+  },
+  {
+   "key": "careers-13",
+   "page": "careers",
+   "type": "text",
+   "label": "Small label",
+   "section": "More than just a job",
+   "default": "Opportunities",
+   "multiline": true
+  },
+  {
+   "key": "careers-14",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "Roles we're looking for",
+   "default": "Roles we're looking for",
+   "multiline": false
+  },
+  {
+   "key": "careers-15",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "We recruit across Bristol, Exeter, Gloucester, and the wider South West. Whether you're a seasoned engineer or starting an apprenticeship, we'd love to hear from you.",
+   "multiline": true
+  },
+  {
+   "key": "careers-19",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Heating Engineers (Domestic)",
+   "multiline": false
+  },
+  {
+   "key": "careers-20",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "Gas Safe registered. Experience in boiler installations, servicing, and repairs across residential properties.",
+   "multiline": true
+  },
+  {
+   "key": "careers-21",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Heating Engineers (Commercial)",
+   "multiline": false
+  },
+  {
+   "key": "careers-22",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "Experience in commercial and new build mechanical installations. Used to working on large developments and multi-unit schemes.",
+   "multiline": true
+  },
+  {
+   "key": "careers-23",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Plumbers",
+   "multiline": false
+  },
+  {
+   "key": "careers-24",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "Experienced plumbers for domestic and commercial work across the South West. Full callout and project-based work available.",
+   "multiline": true
+  },
+  {
+   "key": "careers-25",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Pipefitters",
+   "multiline": false
+  },
+  {
+   "key": "careers-26",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "Skilled pipefitters for commercial new build projects. Experience in distribution pipework, boiler houses, and mechanical services.",
+   "multiline": true
+  },
+  {
+   "key": "careers-27",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Renewables Engineers (ASHP)",
+   "multiline": false
+  },
+  {
+   "key": "careers-28",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "MCS-certified or working towards certification. Experience with Air Source Heat Pump installation for GW Renewables.",
+   "multiline": true
+  },
+  {
+   "key": "careers-29",
+   "page": "careers",
+   "type": "text",
+   "label": "Small heading",
+   "section": "Roles we're looking for",
+   "default": "Apprentices (All Levels)",
+   "multiline": false
+  },
+  {
+   "key": "careers-30",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Roles we're looking for",
+   "default": "We welcome apprentices at all stages, from school leavers to adult returners. Earn while you learn alongside experienced engineers.",
+   "multiline": true
+  },
+  {
+   "key": "careers-31",
+   "page": "careers",
+   "type": "text",
+   "label": "Small label",
+   "section": "Roles we're looking for",
+   "default": "From the team",
+   "multiline": true
+  },
+  {
+   "key": "careers-32",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "What our engineers say",
+   "default": "What our engineers say",
+   "multiline": false
+  },
+  {
+   "key": "careers-33",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "\"Gas World is a family run business with excellent family values. Our team will always pull together to deliver a first class job for our clients.\"",
+   "multiline": true
+  },
+  {
+   "key": "careers-34",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Dave Ramplin",
+   "multiline": false
+  },
+  {
+   "key": "careers-35",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Social Housing Commercial Director",
+   "multiline": false
+  },
+  {
+   "key": "careers-36",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "\"We're able to deliver a first class service for homeowners and contractors alike, and we can cater for projects of any size.\"",
+   "multiline": true
+  },
+  {
+   "key": "careers-37",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Rob Eason",
+   "multiline": false
+  },
+  {
+   "key": "careers-38",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Estimating & Design Director",
+   "multiline": false
+  },
+  {
+   "key": "careers-39",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "\"There are constantly new, diverse and complex challenges within my role. No two days are ever the same.\"",
+   "multiline": true
+  },
+  {
+   "key": "careers-40",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Lee Jenkins",
+   "multiline": false
+  },
+  {
+   "key": "careers-41",
+   "page": "careers",
+   "type": "text",
+   "label": "Quote",
+   "section": "What our engineers say",
+   "default": "Site Foreman",
+   "multiline": false
+  },
+  {
+   "key": "careers-42",
+   "page": "careers",
+   "type": "text",
+   "label": "Small label",
+   "section": "What our engineers say",
+   "default": "Apply now",
+   "multiline": true
+  },
+  {
+   "key": "careers-43",
+   "page": "careers",
+   "type": "text",
+   "label": "Heading",
+   "section": "Send us your details",
+   "default": "Send us your details",
+   "multiline": false
+  },
+  {
+   "key": "careers-44",
+   "page": "careers",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Send us your details",
+   "default": "Fill in the form below and upload your CV. We review every application and will be in touch within 5 working days.",
+   "multiline": true
+  },
+  {
+   "key": "contact-1",
+   "page": "contact",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Get in touch",
+   "default": "Get in touch",
+   "multiline": false
+  },
+  {
+   "key": "contact-2",
+   "page": "contact",
+   "type": "text",
+   "label": "Intro text",
+   "section": "Get in touch",
+   "default": "Whether you're a homeowner, developer, or contractor we'd love to hear about your project.",
+   "multiline": true
+  },
+  {
+   "key": "contact-3",
+   "page": "contact",
+   "type": "text",
+   "label": "Small label",
+   "section": "Get in touch",
+   "default": "Send an enquiry",
+   "multiline": true
+  },
+  {
+   "key": "contact-4",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "Tell us about your project",
+   "default": "Tell us about your project",
+   "multiline": false
+  },
+  {
+   "key": "contact-5",
+   "page": "contact",
+   "type": "text",
+   "label": "Small label",
+   "section": "Tell us about your project",
+   "default": "Contact details",
+   "multiline": true
+  },
+  {
+   "key": "contact-6",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "How to reach us",
+   "default": "How to reach us",
+   "multiline": false
+  },
+  {
+   "key": "contact-7",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "How to reach us",
+   "default": "Phone & email",
+   "multiline": false
+  },
+  {
+   "key": "contact-8",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "How to reach us",
+   "default": "Our offices",
+   "multiline": false
+  },
+  {
+   "key": "contact-9",
+   "page": "contact",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How to reach us",
+   "default": "1 Avon Valley Business Park\nChapel Way, St Annes\nBristol BS4 4EU",
+   "multiline": true
+  },
+  {
+   "key": "contact-10",
+   "page": "contact",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "How to reach us",
+   "default": "Unit 27, Onyx Business Park\nDe-Havilland Road, Skypark\nClyst Honiton, Exeter, EX5 2GG",
+   "multiline": true
+  },
+  {
+   "key": "contact-11",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "How to reach us",
+   "default": "Looking for something specific?",
+   "multiline": false
+  },
+  {
+   "key": "contact-12",
+   "page": "contact",
+   "type": "text",
+   "label": "Small label",
+   "section": "How to reach us",
+   "default": "Coverage",
+   "multiline": true
+  },
+  {
+   "key": "contact-13",
+   "page": "contact",
+   "type": "text",
+   "label": "Heading",
+   "section": "Where we work",
+   "default": "Where we work",
+   "multiline": false
+  },
+  {
+   "key": "contact-14",
+   "page": "contact",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Where we work",
+   "default": "GasWorld operates across Bristol, Bath, Somerset, Devon, Wiltshire, Gloucestershire and the wider South West.",
+   "multiline": true
+  },
+  {
+   "key": "quote-1",
+   "page": "quote",
+   "type": "text",
+   "label": "Main heading",
+   "section": "Get a free quote for your home",
+   "default": "Get a free quote for your home",
+   "multiline": false
+  },
+  {
+   "key": "quote-2",
+   "page": "quote",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Get a free quote for your home",
+   "default": "Boiler replacement, central heating, plumbing, or Air Source Heat Pumps, we cover it all across Bristol, Bath and the South West.",
+   "multiline": true
+  },
+  {
+   "key": "quote-3",
+   "page": "quote",
+   "type": "text",
+   "label": "Quote",
+   "section": "Request your free quote",
+   "default": "Request your free quote",
+   "multiline": false
+  },
+  {
+   "key": "quote-4",
+   "page": "quote",
+   "type": "text",
+   "label": "Heading",
+   "section": "Request your free quote",
+   "default": "Why choose GasWorld?",
+   "multiline": false
+  },
+  {
+   "key": "quote-5",
+   "page": "quote",
+   "type": "text",
+   "label": "Paragraph",
+   "section": "Request your free quote",
+   "default": "\"GasWorld completed a multi-point installation for us and the standard of work was exceptional. The engineers were tidy, professional, and kept us informed throughout.\"",
+   "multiline": true
+  },
+  {
+   "key": "news-1",
+   "page": "news",
+   "type": "text",
+   "label": "Main heading",
+   "section": "News & case studies",
+   "default": "News & case studies",
+   "multiline": false
+  },
+  {
+   "key": "news-2",
+   "page": "news",
+   "type": "text",
+   "label": "Intro text",
+   "section": "News & case studies",
+   "default": "Project insights, industry news, and company updates from the GasWorld team.",
+   "multiline": true
+  },
+  {
+   "key": "news-3",
+   "page": "news",
+   "type": "text",
+   "label": "Heading",
+   "section": "More news & case studies",
+   "default": "More news & case studies",
+   "multiline": false
+  }
+ ]
+}

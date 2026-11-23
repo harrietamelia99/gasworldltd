@@ -65,40 +65,53 @@ export function requireLogin(req, res) {
   return false;
 }
 
-async function readSeed() {
-  const file = path.join(process.cwd(), 'content', 'seed-posts.json');
-  const json = JSON.parse(await fs.readFile(file, 'utf8'));
-  return json.posts || [];
+async function readSeedFile(file, fallback) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(process.cwd(), 'content', file), 'utf8'));
+  } catch {
+    return fallback;
+  }
 }
+
+const SEEDS = {
+  posts: async () => (await readSeedFile('seed-posts.json', { posts: [] })).posts || [],
+  team: async () => (await readSeedFile('seed-team.json', { members: [] })).members || [],
+  overrides: async () => ({}),
+  jobs: async () => (await readSeedFile('seed-jobs.json', { jobs: [] })).jobs || [],
+};
 
 // Each save writes a new, uniquely named file so nobody ever sees a stale copy.
 // The newest file is the live one; older ones are kept as a short history.
-export async function readPosts() {
-  if (!hasStorage()) return readSeed();
-  const { blobs } = await list({ prefix: 'content/posts-' });
-  if (!blobs.length) return readSeed();
+export async function readDoc(name) {
+  const seed = SEEDS[name];
+  if (!seed) throw new Error('Unknown content');
+  if (!hasStorage()) return seed();
+  const { blobs } = await list({ prefix: `content/${name}-` });
+  if (!blobs.length) return seed();
   blobs.sort((a, b) => b.pathname.localeCompare(a.pathname));
   const r = await fetch(blobs[0].url, { cache: 'no-store' });
-  if (!r.ok) throw new Error('Could not read posts');
+  if (!r.ok) throw new Error('Could not read saved content');
   const json = await r.json();
-  return json.posts || [];
+  return json.data ?? json.posts ?? json;
 }
 
-export async function writePosts(posts) {
+export async function writeDoc(name, data) {
   if (!hasStorage()) throw new Error('Storage is not connected yet.');
   const stamp = String(Date.now()).padStart(15, '0');
-  await put(`content/posts-${stamp}.json`, JSON.stringify({ posts }, null, 2), {
+  await put(`content/${name}-${stamp}.json`, JSON.stringify({ data }, null, 2), {
     access: 'public',
     addRandomSuffix: false,
     contentType: 'application/json',
     cacheControlMaxAge: 60,
   });
-  // keep the 30 most recent versions
-  const { blobs } = await list({ prefix: 'content/posts-' });
+  const { blobs } = await list({ prefix: `content/${name}-` });
   blobs.sort((a, b) => b.pathname.localeCompare(a.pathname));
   const old = blobs.slice(30).map(b => b.url);
   if (old.length) await del(old);
 }
+
+export const readPosts = () => readDoc('posts');
+export const writePosts = posts => writeDoc('posts', posts);
 
 export async function savePhoto(dataUrl, name) {
   if (!hasStorage()) throw new Error('Storage is not connected yet.');
@@ -115,6 +128,11 @@ export async function savePhoto(dataUrl, name) {
   });
   return blob.url;
 }
+
+export const safeSrc = v => {
+  const s = String(v || '').trim();
+  return /^(https:\/\/[a-z0-9.-]+\.public\.blob\.vercel-storage\.com\/|\/img\/|img\/)/i.test(s) || s === '' ? s : '';
+};
 
 export function slugify(s) {
   return String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')

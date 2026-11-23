@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9">
+  <link rel="stylesheet" href="css/style.css?v=10">
   <style>
     .contact-info-block {
       background: var(--off-white);
@@ -79,8 +79,8 @@
           <span aria-current="page">Contact</span>
         </nav>
         <div class="hero-inner-content">
-          <h1>Get in touch</h1>
-          <p class="lead">Whether you're a homeowner, developer, or contractor we'd love to hear about your project.</p>
+          <h1 data-edit="contact-1">Get in touch</h1>
+          <p data-edit="contact-2" class="lead">Whether you're a homeowner, developer, or contractor we'd love to hear about your project.</p>
         </div>
       </div>
     </section>
@@ -92,8 +92,8 @@
 
           <!-- Form -->
           <div class="reveal">
-            <p class="label">Send an enquiry</p>
-            <h2 id="contact-heading">Tell us about your project</h2>
+            <p data-edit="contact-3" class="label">Send an enquiry</p>
+            <h2 data-edit="contact-4" id="contact-heading">Tell us about your project</h2>
             <div class="form-card">
               <form data-validate>
                 <div class="form-group">
@@ -152,12 +152,12 @@
 
           <!-- Contact details -->
           <div class="reveal">
-            <p class="label">Contact details</p>
-            <h2 class="h3">How to reach us</h2>
+            <p data-edit="contact-5" class="label">Contact details</p>
+            <h2 data-edit="contact-6" class="h3">How to reach us</h2>
 
             <!-- Phone + email -->
             <div class="contact-info-block" style="margin-bottom:1.5rem">
-              <h3>Phone &amp; email</h3>
+              <h3 data-edit="contact-7">Phone &amp; email</h3>
               <div class="contact-detail">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 <div>
@@ -177,26 +177,26 @@
 
             <!-- Offices -->
             <div class="contact-info-block" style="margin-bottom:1.5rem">
-              <h3>Our offices</h3>
+              <h3 data-edit="contact-8">Our offices</h3>
               <div class="office-card">
                 <h4>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:0.4rem"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
                   Bristol Head Office
                 </h4>
-                <p>1 Avon Valley Business Park<br>Chapel Way, St Annes<br>Bristol BS4 4EU</p>
+                <p data-edit="contact-9">1 Avon Valley Business Park<br>Chapel Way, St Annes<br>Bristol BS4 4EU</p>
               </div>
               <div class="office-card" style="border-left-color:var(--blue)">
                 <h4>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:0.4rem"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
                   Exeter Regional Office
                 </h4>
-                <p>Unit 27, Onyx Business Park<br>De-Havilland Road, Skypark<br>Clyst Honiton, Exeter, EX5 2GG</p>
+                <p data-edit="contact-10">Unit 27, Onyx Business Park<br>De-Havilland Road, Skypark<br>Clyst Honiton, Exeter, EX5 2GG</p>
               </div>
             </div>
 
             <!-- Quick links -->
             <div class="contact-info-block">
-              <h3>Looking for something specific?</h3>
+              <h3 data-edit="contact-11">Looking for something specific?</h3>
               <div style="display:flex;flex-direction:column;gap:0.6rem">
                 <a href="quote.html" class="arrow-link" style="font-size:0.9rem">
                   Domestic quote request
@@ -222,9 +222,9 @@
     <section class="section bg-off-white" aria-labelledby="map-heading">
       <div class="container">
         <div class="section-header centered reveal">
-          <p class="label">Coverage</p>
-          <h2 id="map-heading">Where we work</h2>
-          <p>GasWorld operates across Bristol, Bath, Somerset, Devon, Wiltshire, Gloucestershire and the wider South West.</p>
+          <p data-edit="contact-12" class="label">Coverage</p>
+          <h2 data-edit="contact-13" id="map-heading">Where we work</h2>
+          <p data-edit="contact-14">GasWorld operates across Bristol, Bath, Somerset, Devon, Wiltshire, Gloucestershire and the wider South West.</p>
         </div>
         <div class="map-embed reveal">
           <iframe
@@ -247,6 +247,7 @@
 
   <script src="js/components.js?v=6"></script>
   <script src="js/main.js?v=6"></script>
+  <script src="js/content.js?v=1" defer></script>
   <script>
     initComponents({ activePage: '', showCtaBanner: false });
   </script>

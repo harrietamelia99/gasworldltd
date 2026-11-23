@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9">
+  <link rel="stylesheet" href="css/style.css?v=10">
 </head>
 <body>
 
@@ -40,8 +40,8 @@
           <span aria-current="page">Meet the Team</span>
         </nav>
         <div class="hero-inner-content">
-          <h1>Meet the team</h1>
-          <p class="lead">The people behind 45 years of trusted heating and plumbing across the South West.</p>
+          <h1 data-edit="team-1">Meet the team</h1>
+          <p data-edit="team-2" class="lead">The people behind 45 years of trusted heating and plumbing across the South West.</p>
         </div>
       </div>
     </section>
@@ -50,10 +50,10 @@
     <section class="section bg-white" aria-labelledby="leadership-heading">
       <div class="container">
         <div class="section-header reveal">
-          <p class="label">Leadership</p>
-          <h2 id="leadership-heading">Meet the directors</h2>
+          <p data-edit="team-3" class="label">Leadership</p>
+          <h2 data-edit="team-4" id="leadership-heading">Meet the directors</h2>
         </div>
-        <div class="leadership-grid reveal-stagger">
+        <div class="leadership-grid reveal-stagger" data-team="directors">
 
           <div class="team-card team-card-featured">
             <img class="team-card-img" src="img/team-adam.jpg" alt="Adam Lane" loading="lazy">
@@ -126,11 +126,11 @@
     <section class="section bg-off-white" aria-labelledby="team-grid-heading">
       <div class="container">
         <div class="section-header reveal">
-          <p class="label">The wider team</p>
-          <h2 id="team-grid-heading">Engineers, estimators &amp; support</h2>
-          <p>Behind our directors is a team of skilled engineers, project managers, estimators, customer care staff and apprentices.</p>
+          <p data-edit="team-5" class="label">The wider team</p>
+          <h2 data-edit="team-6" id="team-grid-heading">Engineers, estimators &amp; support</h2>
+          <p data-edit="team-7">Behind our directors is a team of skilled engineers, project managers, estimators, customer care staff and apprentices.</p>
         </div>
-        <div class="grid-4 reveal-stagger" style="gap:1.25rem">
+        <div class="grid-4 reveal-stagger" style="gap:1.25rem" data-team="team">
 
           <div class="team-card team-card--sm">
             <img class="team-card-img" src="img/team-sam.jpg" alt="Samantha Curnock" loading="lazy">
@@ -158,27 +158,27 @@
     <section class="section bg-white" aria-labelledby="quotes-heading">
       <div class="container">
         <div class="section-header centered reveal">
-          <p class="label">In their own words</p>
-          <h2 id="quotes-heading">What the team say</h2>
+          <p data-edit="team-8" class="label">In their own words</p>
+          <h2 data-edit="team-9" id="quotes-heading">What the team say</h2>
         </div>
         <div class="employee-quotes reveal-stagger">
 
           <div class="employee-quote-card">
-            <p class="employee-quote-text">"Gas World is a family run business with excellent family values. Our team will always pull together to deliver a first class job for our clients."</p>
-            <div class="employee-quote-author">Dave Ramplin</div>
-            <div class="employee-quote-role">Social Housing Commercial Director</div>
+            <p data-edit="team-10" class="employee-quote-text">"Gas World is a family run business with excellent family values. Our team will always pull together to deliver a first class job for our clients."</p>
+            <div data-edit="team-11" class="employee-quote-author">Dave Ramplin</div>
+            <div data-edit="team-12" class="employee-quote-role">Social Housing Commercial Director</div>
           </div>
 
           <div class="employee-quote-card">
-            <p class="employee-quote-text">"We're able to deliver a first class service for homeowners and contractors alike, and we can cater for projects of any size, from a single boiler to a 200-unit development."</p>
-            <div class="employee-quote-author">Rob Eason</div>
-            <div class="employee-quote-role">Estimating &amp; Design Director</div>
+            <p data-edit="team-13" class="employee-quote-text">"We're able to deliver a first class service for homeowners and contractors alike, and we can cater for projects of any size, from a single boiler to a 200-unit development."</p>
+            <div data-edit="team-14" class="employee-quote-author">Rob Eason</div>
+            <div data-edit="team-15" class="employee-quote-role">Estimating &amp; Design Director</div>
           </div>
 
           <div class="employee-quote-card">
-            <p class="employee-quote-text">"There are constantly new, diverse and complex challenges within my role. No two days are ever the same and that's exactly why I enjoy it."</p>
-            <div class="employee-quote-author">Lee Jenkins</div>
-            <div class="employee-quote-role">Site Foreman</div>
+            <p data-edit="team-16" class="employee-quote-text">"There are constantly new, diverse and complex challenges within my role. No two days are ever the same and that's exactly why I enjoy it."</p>
+            <div data-edit="team-17" class="employee-quote-author">Lee Jenkins</div>
+            <div data-edit="team-18" class="employee-quote-role">Site Foreman</div>
           </div>
 
         </div>
@@ -188,9 +188,9 @@
     <!-- ── Careers CTA ────────────────────────────────── -->
     <section class="section bg-off-white" aria-label="Join the team">
       <div class="container text-center reveal">
-        <h2>Want to join the team?</h2>
-        <p style="margin:0.75rem auto 2rem">We're always looking for skilled engineers, plumbers, and apprentices. Find out what it's like to work at GasWorld.</p>
-        <a href="careers.html" class="btn btn-primary btn-lg">See opportunities →</a>
+        <h2 data-edit="team-19">Want to join the team?</h2>
+        <p data-edit="team-20" style="margin:0.75rem auto 2rem">We're always looking for skilled engineers, plumbers, and apprentices. Find out what it's like to work at GasWorld.</p>
+        <a data-edit="team-21" href="careers.html" class="btn btn-primary btn-lg">See opportunities →</a>
       </div>
     </section>
 
@@ -200,6 +200,8 @@
 
   <script src="js/components.js?v=6"></script>
   <script src="js/main.js?v=6"></script>
+  <script src="js/content.js?v=1" defer></script>
+  <script src="js/team.js?v=1" defer></script>
   <script>
     initComponents({ activePage: '', showCtaBanner: false });
   </script>
